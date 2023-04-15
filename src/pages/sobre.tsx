@@ -1,4 +1,4 @@
-import Celulas from '../components/celulas'
+import Celulas from '../components/Celulas'
 import AnimatedText from 'react-animated-text-content';
 
 export default function Sobre() {
