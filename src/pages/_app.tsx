@@ -25,5 +25,3 @@ export default function App({ Component, pageProps }: AppProps) {
          <Component {...pageProps} />
          </Layout>
 }
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/amcharts4/4.10.35/core.min.js" integrity="sha512-O78ZQM2tJy/nq3cdLD7gQlUdqLgQ3ck1nHqke/VQHqtHG6aKtHwKHf6S/cYTlezJOxP1wmkOvsS0dgEAtgihPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
