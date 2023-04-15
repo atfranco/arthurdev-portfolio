@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import AnimatedText from '../../node_modules/react-animated-text-content';
-import Passaros from '@/components/passaros';
+import Passaros from '@/components/Passaros';
+
 
 export default function Home() {
     return (      
