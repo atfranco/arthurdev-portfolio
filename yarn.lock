@@ -2147,6 +2147,11 @@ three@^0.151.3:
   resolved "https://registry.yarnpkg.com/three/-/three-0.151.3.tgz#0b3c7de4b070d5b66b15217f42465d67cbfa6004"
   integrity sha512-+vbuqxFy8kzLeO5MgpBHUvP/EAiecaDwDuOPPDe6SbrZr96kccF0ktLngXc7xA7bzyd3N0t2f6mw3Z9y6JCojQ==
 
+threejs-toys@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/threejs-toys/-/threejs-toys-0.0.8.tgz#cf99b3ecaebcda18f72ace8ea0e70ecfc2214008"
+  integrity sha512-FTlSVbNJQA4KhMTvDrcsSrfUH5hQzzzyZ9HQk76p6V4kY5O7zoH1zb0tAnir4kDaMupANNW5Ra7ur98+Fjg4bQ==
+
 through2@^2.0.0, through2@~2.0.3:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
