@@ -20,6 +20,7 @@ export default function Sobre() {
             rootMargin="50%">
             Breve Resumo
             </AnimatedText>
+            <Graficoteste />
             <Botaoglow />
         </div>
 
