@@ -1,13 +1,6 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { CategoryScale, LinearScale, Chart, BarController, BarElement } from "chart.js";
-import type { ChartData, ChartOptions } from 'chart.js';
-
-interface LineProps {
-    options: ChartOptions<'bar'>;
-    data: ChartData<'bar'>;
-}
-
 
 Chart.register(CategoryScale);
 Chart.register(LinearScale);
@@ -39,21 +32,19 @@ const data = {
   }]
 }
 
-export default () => ({
-  displayName: 'BarExample',
-  render() {
-    return (
-      <div>
-        <h2>TESTANDO</h2>
-        <Bar
-          data={data}
-          width={300}
-          height={100}
-          options={{
-            maintainAspectRatio: true
-          }}
-        />
-      </div>
-    );
-  }
-});
+export default function Graficoteste() {
+  return (
+    <>
+    <div>
+    <h2>TESTANDO</h2>
+    <Bar
+      data={data}
+      width={300}
+      height={100}
+      options={{
+        maintainAspectRatio: true
+      }}
+    />
+  </div>
+    </>
+)};
