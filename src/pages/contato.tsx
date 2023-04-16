@@ -1,8 +1,11 @@
 import AnimatedText from 'react-animated-text-content';
+import Botaoglow from '@/components/Botaoglow';
+import Celulasgreen from '@/components/Celulasgreen';
 
 export default function Contato() {
     return(
         <div>
+            <Celulasgreen />
             <AnimatedText
             type="chars" // animate words or chars
             animation={{
@@ -18,6 +21,7 @@ export default function Contato() {
             rootMargin="50%">
             Contato
             </AnimatedText>
+            <Botaoglow />
         </div>
 
     )

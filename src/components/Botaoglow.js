@@ -7,7 +7,7 @@ export default function Botaoglow() {
         <>
             <div className={styles.container}>
                 <div className={styles.btn}>                    
-                    <a href="#"><FontAwesomeIcon className={styles.icones} icon={faMailForward}/>Entre em contato</a>
+                    <a href="#"><FontAwesomeIcon className={styles.icone} icon={faMailForward}/>Entre em contato</a>
                 </div>
             </div>
         </>

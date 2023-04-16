@@ -1,5 +1,6 @@
 import Celulas from '../components/Celulas'
 import AnimatedText from 'react-animated-text-content';
+import Botaoglow from '@/components/Botaoglow';
 
 export default function Sobre() {
     return(
@@ -20,6 +21,7 @@ export default function Sobre() {
             rootMargin="50%">
             Resumo
             </AnimatedText>
+            <Botaoglow />
         </div>
 
     )

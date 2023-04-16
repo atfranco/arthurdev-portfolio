@@ -1,4 +1,5 @@
 import AnimatedText from 'react-animated-text-content';
+import Botaoglow from '@/components/Botaoglow';
 
 export default function Portfolio() {
     return(
@@ -18,6 +19,7 @@ export default function Portfolio() {
             rootMargin="50%">
             Portfolio
             </AnimatedText>
+            <Botaoglow />
         </div>
 
     )
