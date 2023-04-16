@@ -5,7 +5,6 @@ import Botaoglow from '@/components/Botaoglow';
 export default function Sobre() {
     return(
         <div>
-            <Celulas />
             <AnimatedText
             type="chars" // animate words or chars
             animation={{

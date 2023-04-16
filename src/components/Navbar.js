@@ -39,7 +39,7 @@ const usaHome = () => {
   };
 
 export default function Navbar() {
-    return (      
+    return (   
         <div className={styles.navbar}>
             <div className={styles.logomenu}>
                 <h1 className={styles.logo}>ATF</h1>

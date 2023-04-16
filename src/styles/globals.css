@@ -27,6 +27,7 @@
   --tom: hsl(var(--hue-color), 100%, 50%);
   --padrao: hsl(var(--hue-color), 50%, 60%);
   --fundo: hsl(var(--hue-color), 50%, 20%);
+  --fundomid: hsl(var(--hue-color), 60%, 30%);
    /* Sizes */
    --sizeicone: 20px;
 }
@@ -39,7 +40,7 @@ body {
 
 body {
   color: white;
-  background-color: var(--diminui);
+  background: linear-gradient(135deg, var(--fundomid) 20%, var(--fundo) 80%);
   font-family: Righteous;
 }
 
