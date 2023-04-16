@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import AnimatedText from '../../node_modules/react-animated-text-content';
 import Passaros from '@/components/Passaros';
+import Botaoglow from '@/components/Botaoglow'
 
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
           rootMargin="50%">
           Desenvolvedor Front End / Especialista em Wordpress / Designer Gráfico
         </AnimatedText>
+        <Botaoglow />
       </div>
       
     )
