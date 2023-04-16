@@ -74,7 +74,7 @@ export default function Navbar() {
               data-tooltip-delay-hide={300}
               className="tool-skills">
               <FontAwesomeIcon className={styles.icones} icon={faTools}/>
-              <Tooltip className='tool-skills' anchorSelect=".tool-skills" place="right">SKILLS</Tooltip>            
+              <Tooltip className='tool-skills' anchorSelect=".tool-skills" place="right">HABILIDADES</Tooltip>            
             </Link>
             <Link
               href={{
