@@ -17,7 +17,7 @@ export default function Skills() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Skills
+            Habilidades
             </AnimatedText>
             <Botaoglow />
         </div>

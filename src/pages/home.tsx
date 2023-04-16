@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import AnimatedText from '../../node_modules/react-animated-text-content';
 import Passaros from '@/components/Passaros';
 import Botaoglow from '@/components/Botaoglow'
+import Espacador from '@/components/Espacador';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
           rootMargin="50%">
           Arthur Franco
         </AnimatedText>
+        <Espacador />
         <AnimatedText
           type="words" // animate words or chars
           animation={{
@@ -30,13 +32,29 @@ export default function Home() {
           }}
           animationType="bounce"
           interval={0.2}
-          duration={2}
+          duration={1}
           tag="p"
           className="animado-subtitulo"
           includeWhiteSpaces
           threshold={0.1}
           rootMargin="50%">
           Desenvolvedor Front End / Especialista em Wordpress / Designer Gráfico
+        </AnimatedText>
+        <Espacador />
+        <AnimatedText
+          type="chars" // animate words or chars
+          animation={{
+            ease: 'ease-in-out',
+          }}
+          animationType="bounce"
+          interval={0.01}
+          duration={3}
+          tag="p"
+          className="animado-texto"
+          includeWhiteSpaces
+          threshold={0.1}
+          rootMargin="50%">
+          Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta. Com vasta experiência na criação de Sistemas personalizados, E-commerces, Manipulação de dados e Integração de Sistemas.
         </AnimatedText>
         <Botaoglow />
       </div>
