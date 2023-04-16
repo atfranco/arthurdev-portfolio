@@ -1,6 +1,5 @@
 import AnimatedText from 'react-animated-text-content';
 import Botaoglow from '@/components/Botaoglow';
-import Graficoteste from '@/components/Graficoteste';
 
 export default function Sobre() {
     return(
@@ -20,7 +19,6 @@ export default function Sobre() {
             rootMargin="50%">
             Breve Resumo
             </AnimatedText>
-            <Graficoteste />
             <Botaoglow />
         </div>
 

@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/sobre.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/sobre.js", "src/components/Graficoteste.js"],
   "exclude": ["node_modules"]
 }

@@ -1,6 +1,13 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { CategoryScale, LinearScale, Chart, BarController, BarElement } from "chart.js";
+import type { ChartData, ChartOptions } from 'chart.js';
+
+interface LineProps {
+    options: ChartOptions<'bar'>;
+    data: ChartData<'bar'>;
+}
+
 
 Chart.register(CategoryScale);
 Chart.register(LinearScale);
@@ -37,7 +44,7 @@ export default () => ({
   render() {
     return (
       <div>
-        <h2>Bar Example (custom size)</h2>
+        <h2>TESTANDO</h2>
         <Bar
           data={data}
           width={300}
