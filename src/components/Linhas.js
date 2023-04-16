@@ -1,77 +1,75 @@
+
+
+(function() {
+
+  const container = document.getElementById('app');
+
+  const options = {
+    onSpeedUp: (ev) => {					
+    },
+    onSlowDown: (ev) => {
+    },
+    // mountainDistortion || LongRaceDistortion || xyDistortion || turbulentDistortion || turbulentDistortionStill || deepDistortionStill || deepDistortion
+    distortion: xyDistortion, 
+    
+    length: 400,
+    roadWidth: 9,
+    islandWidth: 2,
+    lanesPerRoad: 3,
+
+    fov: 90,
+    fovSpeedUp: 150,
+    speedUp: 2,
+    carLightsFade: 0.4,
+
+    totalSideLightSticks: 50,
+    lightPairsPerRoadWay: 30,
+
+    // Percentage of the lane's width
+    shoulderLinesWidthPercentage: 0.05,
+    brokenLinesWidthPercentage: 0.1,
+    brokenLinesLengthPercentage: 0.5,
+
+    /*** These ones have to be arrays of [min,max].  ***/
+    lightStickWidth: [0.02, 0.05],
+    lightStickHeight: [0.3, 0.7],
+
+    movingAwaySpeed: [20, 50],
+    movingCloserSpeed: [-150, -230],
+
+    /****  Anything below can be either a number or an array of [min,max] ****/
+
+    // Length of the lights. Best to be less than total length
+    carLightsLength: [400 * 0.05, 400 * 0.2],
+    // Radius of the tubes
+    carLightsRadius: [0.03, 0.08],
+    // Width is percentage of a lane. Numbers from 0 to 1
+    carWidthPercentage: [0.1, 0.5],
+    // How drunk the driver is.
+    // carWidthPercentage's max + carShiftX's max -> Cannot go over 1. 
+    // Or cars start going into other lanes 
+    carShiftX: [-0.5, 0.5],
+    // Self Explanatory
+    carFloorSeparation: [0, 0.1],
+
+    colors: {
+      roadColor: 0x080808,
+      islandColor: 0x131318,
+      shoulderLines: 0x131318,
+      brokenLines: 0x131318,
+      /***  Only these colors can be an array ***/
+      leftCars: [0xF1EECE, 0xE6E2B1, 0xDFD98A],
+      rightCars: [0xF1EECE, 0xE6E2B1, 0xDFD98A],
+      sticks: 0xF1EECE,
+    }
+  };
+
+  const myApp = new App(container, options);
+  myApp.loadAssets().then(myApp.init)
+})()
+
 export default function Linhas() {
-
-    if (typeof window !== "undefined") {  
-
-    const canvas = document.querySelector('#canvas')
-    const ctx = canvas.getContext('2d')
-let cell, dpr
-
-
-let draw = () => {
-  ctx.fillStyle = 'red'
-  ctx.filter = 'blur(1px)'
-  ctx.font = `bold ${canvas.width * .15}px Arial`
-  ctx.textBaseline = 'middle'
-  ctx.textAlign = 'center'
-  ctx.fillText('{Arthur}', canvas.width * .5, canvas.height * .5)
-  ctx.filter = 'none'
-  let Lines = []
-  for (let y = 0; y < canvas.height; y+=cell) {
-    for (let x = 0; x < canvas.width; x+=cell) {
-      Lines.push({
-        x: x,
-        y: y,
-        p: ctx.getImageData(x + cell/2, y + cell/2, 1, 1).data[3] > 0
-      })
-    }
-  }
-  ctx.clearRect(0, 0, canvas.width, canvas.height)
-  ctx.lineWidth = 1.3
-  ctx.strokeStyle = '#ffffff71'
-  ctx.beginPath()
-  Lines.forEach(p => {
-    if (p.p) {
-      ctx.moveTo(p.x, p.y)
-      ctx.lineTo(p.x + cell, p.y + cell)
-    } else {
-      ctx.moveTo(p.x, p.y + cell)
-      ctx.lineTo(p.x + cell, p.y)
-    }
-  })
-  ctx.stroke()
-}
-/*--------------------
-Init
---------------------*/
-const init = () => {
-  dpr = window.devicePixelRatio
-  canvas.style.width = `${window.innerWidth}px`
-  canvas.style.height = `${window.innerHeight}px`
-  canvas.width = window.innerWidth * dpr
-  canvas.height = window.innerHeight * dpr
-  cell = window.innerWidth < 500 ? dpr > 1 ? 1 : 1 : dpr > 1 ? 10 : 10
-  draw()  
-}
-
-function onWindowResize() {
-init()
-}
-
-function mudaLinha() {
-  init()
-  ctx.strokeStyle = 'black'
-  ctx.stroke()
-}
-
-init()
-onWindowResize();
-window.addEventListener("resize", onWindowResize);
   return (
-    <div id="#canvas">       
-        
-    </div>
+    <div id="#app"></div>
   )
 }
-}
-
-
