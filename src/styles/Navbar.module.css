@@ -1,18 +1,20 @@
 .logomenu {
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     font-weight: 600;
+    letter-spacing: -15px;
   }
   
   .logomenu h2 {
-    color: greenyellow;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
+    letter-spacing: 0px;
   }
   
   .navbar {
     background-color: var(--tom);
-    width: 90px;
+    width: 80px;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -33,13 +35,13 @@
     background: rgba( 255, 255, 255, 0.05 );
     backdrop-filter: blur( 4px );
     color: var(--tom);
-    width: 110px;
+    width: 100px;
     box-shadow: var(--fundo) 0px 0px 0px 0px, var(--tom) 0px 0px 0px 4px;
   }
   
   .icones {
-    width: 30px;
-    height: 30px;
+    width: var(--sizeicone);
+    height: var(--sizeicone);
     margin-top: 5px;
     margin-bottom: 5px;
     cursor: pointer;

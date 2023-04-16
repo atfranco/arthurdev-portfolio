@@ -18,7 +18,7 @@ export default function Sobre() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Sobre Mim
+            Resumo
             </AnimatedText>
         </div>
 

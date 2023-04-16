@@ -1,5 +1,24 @@
+import AnimatedText from 'react-animated-text-content';
+
 export default function Portfolio() {
     return(
-        <h1>PORTFOLIOIOIISIAIAIOOOOOOOOOOO</h1>
+        <div>
+            <AnimatedText
+            type="chars" // animate words or chars
+            animation={{
+                ease: 'ease-in-out',
+            }}
+            animationType="throw"
+            interval={0.1}
+            duration={1.5}
+            tag="p"
+            className="animado-titulo"
+            includeWhiteSpaces
+            threshold={0.1}
+            rootMargin="50%">
+            Portfolio
+            </AnimatedText>
+        </div>
+
     )
 }

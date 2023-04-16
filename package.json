@@ -24,6 +24,7 @@
     "react-animated-text-content": "^1.0.1",
     "react-dom": "18.2.0",
     "react-tooltip": "^5.11.1",
+    "three": "^0.151.3",
     "typescript": "5.0.4",
     "vanta": "^0.5.24"
   }

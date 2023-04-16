@@ -64,7 +64,7 @@ export default function Navbar() {
               data-tooltip-delay-hide={300}
               className="tool-user">
               <FontAwesomeIcon className={styles.icones} icon={faUser}/>
-              <Tooltip className='tool-user' anchorSelect=".tool-user" place="right">SOBRE MIM</Tooltip>            
+              <Tooltip className='tool-user' anchorSelect=".tool-user" place="right">BREVE RESUMO</Tooltip>            
             </Link>
             <Link
               href={{

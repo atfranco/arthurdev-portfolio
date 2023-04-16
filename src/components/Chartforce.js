@@ -16,7 +16,7 @@ class Graficoforce extends Component {
         series.data = [
             {
               name: "HABILIDADES",
-              value: 600,
+              value: 500,
               children: [
                 {
                   name: "FRONTEND",
