@@ -8,10 +8,10 @@ Chart.register(BarController);
 Chart.register(BarElement);
 
 const data = {
-  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+  labels: ['Web', 'Design/Imagens', 'Engenharia Civil', 'Marketing/SEO', 'Ecommerces', '3D'],
   datasets: [{
-    label: '# of Votes',
-    data: [1, 1, 1, 1, 1, 1],
+    label: 'Anos de Experiencia',
+    data: [20, 12, 6, 4, 4, 3],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
       'rgba(54, 162, 235, 0.2)',
@@ -28,7 +28,7 @@ const data = {
       'rgba(153, 102, 255, 1)',
       'rgba(255, 159, 64, 1)'
     ],
-    borderWidth: 1
+    borderWidth: 8
   }]
 }
 
