@@ -6,6 +6,16 @@ import Espacador from '@/components/Espacador';
 import styles from '@/styles/Sobre.module.css';
 import { useKeenSlider, KeenSliderPlugin } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faGitAlt,
+  faReact,
+  faNodeJs,
+  faNode,
+  faWordpress,
+  faFigma,
+} from '@fortawesome/free-brands-svg-icons'
+
 
 const carousel: KeenSliderPlugin = (slider) => {
     const z = 300
@@ -60,16 +70,15 @@ export default function Sobre() {
             <div className="wrappercarrousel">
             <div className="scenecarrousel">
                 <div className="carousel keen-slider" ref={sliderRef}>
-                <div className="carousel__cell number-slide1 ">Next.js</div>
-                <div className="carousel__cell number-slide2">Woo</div>
-                <div className="carousel__cell number-slide3">Wordpress</div>
-                <div className="carousel__cell number-slide4">SEO</div>
-                <div className="carousel__cell number-slide5">Figma</div>
-                <div className="carousel__cell number-slide6">PSD</div>
+                <div className="carousel__cell number-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>FIGMA</p></div>
                 </div>
             </div>
             </div>
-            <Espacador />
             <Botaoglow />
             <Espacador /> 
             </div>
