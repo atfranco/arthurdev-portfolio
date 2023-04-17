@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     justify-items: center;
     justify-content: space-between;
     align-items: center;
