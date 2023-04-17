@@ -35,11 +35,10 @@ const data = {
 export default function Graficoteste() {
   return (
     <>
-    <div>
-    <h2>TESTANDO</h2>
+    <div className='flex centraliza'>
     <Bar
       data={data}
-      width={300}
+      width={100}
       height={100}
       options={{
         maintainAspectRatio: true

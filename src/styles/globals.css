@@ -82,6 +82,12 @@ h1 {
   max-width: 700px;
   position: relative;  
 }
+.flex {
+  display: flex;
+}
+.centraliza {
+  justify-content: center;
+}
 
 .chartdivforce {
   width: 100%;
