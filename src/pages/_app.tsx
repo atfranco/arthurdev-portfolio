@@ -22,6 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, []);
   //editfinal
   return <Layout>
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
          <Component {...pageProps} />
          </Layout>
 }

@@ -21,16 +21,21 @@
     "@types/react-dom": "18.0.11",
     "chart.js": "^4.2.1",
     "font-awesome": "^4.7.0",
+    "leaflet": "^1.9.3",
     "next": "13.3.0",
     "next-transpile-modules": "^10.0.0",
     "react": "18.2.0",
     "react-animated-text-content": "^1.0.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-tooltip": "^5.11.1",
     "three": "^0.151.3",
     "threejs-toys": "^0.0.8",
     "typescript": "5.0.4",
     "vanta": "^0.5.24"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.3"
   }
 }

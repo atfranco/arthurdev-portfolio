@@ -3,6 +3,8 @@ import Botaoglow from '@/components/Botaoglow';
 import Celulasgreen from '@/components/Celulasgreen';
 import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
+import dynamic from 'next/dynamic';
+
 
 
 export default function Contato() {

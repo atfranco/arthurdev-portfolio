@@ -8,7 +8,7 @@
 }
 
 .alturaminima{
-    display: flex;
+    display: inline-table;
     flex-direction: row;
     position: relative;
     align-content: center;

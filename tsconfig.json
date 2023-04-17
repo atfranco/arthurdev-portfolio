@@ -9,6 +9,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "sourceMap": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -18,6 +19,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/sobre.js", "src/components/Graficoteste.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/sobre.js", "src/components/Graficoteste.js", "src/components/Map/index.tsx"],
   "exclude": ["node_modules"]
 }
