@@ -48,7 +48,7 @@ export default function Navbar() {
             <div className={styles.iconesmenu}>
             <Link
               href={{
-                  pathname: '/home',
+                  pathname: '/',
               }}
               onClick={usaHome}
               data-tooltip-delay-hide={300}
