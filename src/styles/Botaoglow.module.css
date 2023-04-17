@@ -117,3 +117,6 @@
 	box-shadow: 0 0 5px var(--tom), 0 0 15px var(--fundo), 0 0 30px var(--fundo),
 		0 0 40px var(--tom);
 }
+.cor{
+	color: #19237a
+}
