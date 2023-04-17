@@ -98,6 +98,8 @@ export default function Portfolio() {
               Recentes trabalhos
             </AnimatedText>
             <Espacador />
+            <p className='texto'>I am interested in freelance opportunities.</p>
+            <p className='texto'>Especialidade em freelance opportunities.</p>
             <Botaoglow />
             </div>
             <div className='direita'>
@@ -112,12 +114,12 @@ export default function Portfolio() {
             </div>
 
             <div ref={thumbnailRef} className="keen-slider thumbnail">
-              <div className="keen-slider__slide number-slide1">1</div>
-              <div className="keen-slider__slide number-slide2">2</div>
-              <div className="keen-slider__slide number-slide3">3</div>
-              <div className="keen-slider__slide number-slide4">4</div>
-              <div className="keen-slider__slide number-slide5">5</div>
-              <div className="keen-slider__slide number-slide6">6</div>
+              <div className="keen-slider__slide number-slide1">PLANOACCD</div>
+              <div className="keen-slider__slide number-slide2">ADVOCACIA MARQUESI</div>
+              <div className="keen-slider__slide number-slide3">LAYOUT EVENTOS</div>
+              <div className="keen-slider__slide number-slide4">FMMLR SHOP</div>
+              <div className="keen-slider__slide number-slide5">EKOPUFFS</div>
+              <div className="keen-slider__slide number-slide6">LOMA CONSULTORIA</div>
             </div>
               
             </div>
