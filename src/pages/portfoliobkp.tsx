@@ -2,6 +2,7 @@ import AnimatedText from 'react-animated-text-content';
 import Botaoglow from '@/components/Botaoglow';
 
 export default function Portfolio() {
+
     return(
         <div>
             <AnimatedText
@@ -21,5 +22,6 @@ export default function Portfolio() {
             </AnimatedText>
             <Botaoglow />
         </div>
+
     )
 }
