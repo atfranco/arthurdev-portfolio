@@ -15,24 +15,23 @@ import {
   faWordpress,
   faFigma,
 } from '@fortawesome/free-brands-svg-icons'
-
+import { time } from '@amcharts/amcharts4/core';
 
 const carousel: KeenSliderPlugin = (slider) => {
-    const z = 300
-    function rotate() {
-      const deg = 360 * slider.track.details.progress
-      slider.container.style.transform = `translateZ(-${z}px) rotateY(${-deg}deg)`
-    }
-    slider.on("created", () => {
-      const deg = 360 / slider.slides.length
-      slider.slides.forEach((element, idx) => {
-        element.style.transform = `rotateY(${deg * idx}deg) translateZ(${z}px)`
-      })
-      rotate()
-    })
-    slider.on("detailsChanged", rotate)
+  const z = 300
+  function rotate() {
+    const deg = 360 * slider.track.details.progress
+    slider.container.style.transform = `translateZ(-${z}px) rotateY(${-deg}deg)`
   }
-
+  slider.on("created", () => {
+    const deg = 360 / slider.slides.length
+    slider.slides.forEach((element, idx) => {
+      element.style.transform = `rotateY(${deg * idx}deg) translateZ(${z}px)`
+    })
+    rotate()
+  })
+  slider.on("detailsChanged", rotate)
+}
 
 export default function Sobre() {
 
@@ -70,12 +69,12 @@ export default function Sobre() {
             <div className="wrappercarrousel">
             <div className="scenecarrousel">
                 <div className="carousel keen-slider" ref={sliderRef}>
-                <div className="carousel__cell number-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell number-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell number-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell number-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
+                <div className="carousel__cell number-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
+                <div className="carousel__cell number-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
+                <div className="carousel__cell number-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
                 <div className="carousel__cell number-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell number-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>FIGMA</p></div>
+                <div className="carousel__cell number-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
                 </div>
             </div>
             </div>
