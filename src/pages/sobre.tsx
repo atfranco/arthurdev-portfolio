@@ -64,6 +64,23 @@ export default function Sobre() {
             Breve Resumo
             </AnimatedText>
             <Espacador />
+            <AnimatedText
+              type="words" // animate words or chars
+              animation={{
+                ease: 'ease-in-out',
+              }}
+              animationType="bounce"
+              interval={0.2}
+              duration={1}
+              tag="p"
+              className="animado-subtitulo"
+              includeWhiteSpaces
+              threshold={0.1}
+              rootMargin="50%">
+              Desenvolvedor Front End / Especialista em Wordpress / Designer Gráfico
+            </AnimatedText>
+            <Espacador />
+            <Espacador />
             <p className='texto'>I am interested in freelance opportunities - especially on ambitious or large projects. However, if you have any other requests or questions, don't hesitate to contact me using below form either.</p>
             <Espacador />
             <div className="wrappercarrousel">

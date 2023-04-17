@@ -3,6 +3,7 @@ import Botaoglow from '@/components/Botaoglow';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import Image from 'next/image'
+import Espacador from '@/components/Espacador';
 
 
 
@@ -43,8 +44,25 @@ export default function Portfolio() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Portfolio
+            Portfólio
             </AnimatedText>
+            <Espacador />
+            <AnimatedText
+              type="words" // animate words or chars
+              animation={{
+                ease: 'ease-in-out',
+              }}
+              animationType="bounce"
+              interval={0.2}
+              duration={1}
+              tag="p"
+              className="animado-subtitulo"
+              includeWhiteSpaces
+              threshold={0.1}
+              rootMargin="50%">
+              Recentes trabalhos
+            </AnimatedText>
+            <Espacador />
             <Botaoglow />
             </div>
             <div className='direita'>

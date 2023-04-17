@@ -108,14 +108,14 @@ class Graficoforce extends Component {
         chart.zoomToDataItem(event.target.dataItem, 1.2, true)
         });
         series.maxLevels = 5;
-        series.fontSize = 20;
-        series.minRadius = 30;
-        series.maxRadius = 100;
-        series.links.template.distance = 1.2;
+        series.fontSize = 18;
+        series.minRadius = 25;
+        series.maxRadius = 90;
+        series.links.template.distance = 1.3;
         series.links.template.tooltipText = "{name}: [bold]{value}[/]";
         series.links.template.interactionsEnabled = true;
         series.links.template.strokeWidth = 5;
-        series.links.template.strokeOpacity = 1;
+        series.links.template.strokeOpacity = 0.6;
         chart.zoomable = true;
         series.colors.list = [
           am4core.color("#f26419"),
