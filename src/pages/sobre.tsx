@@ -31,11 +31,13 @@ export default function Sobre() {
             </div>
                 <div className='direita'>
                     <div className={styles.primeirografico}>
+                        <p className='texto'>Interesses</p>
                     <Graficoradar />
                     </div>
                     <Espacador />
                     <Espacador />
                     <div className={styles.segundografico}>
+                        <p className='texto'>Experiência</p>
                     <Graficoteste />
                 </div>
             </div>
