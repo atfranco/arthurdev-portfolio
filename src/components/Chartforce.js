@@ -137,7 +137,7 @@ class Graficoforce extends Component {
     }  
     render() {
       return (
-        <div id="chartdivforce" style={{ width: "100%", height: "100vh", position: "absolute", top: "0", left: "0"}}>
+        <div id="chartdivforce" style={{ width: "100%", height: "100vh", position: "fixed", top: "0", left: "0"}}>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/amcharts4/4.10.35/core.min.js" integrity="sha512-O78ZQM2tJy/nq3cdLD7gQlUdqLgQ3ck1nHqke/VQHqtHG6aKtHwKHf6S/cYTlezJOxP1wmkOvsS0dgEAtgihPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         </div>
       );
