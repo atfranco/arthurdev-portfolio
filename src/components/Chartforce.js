@@ -105,13 +105,13 @@ class Graficoforce extends Component {
         series.nodes.template.togglable = true;
         series.nodes.template.tooltipText = "{name}";
         series.nodes.template.events.on("hit", function(event) {
-        chart.zoomToDataItem(event.target.dataItem, 1.3, true)
+        chart.zoomToDataItem(event.target.dataItem, 1.2, true)
         });
         series.maxLevels = 5;
         series.fontSize = 20;
         series.minRadius = 30;
         series.maxRadius = 100;
-        series.links.template.distance = 1.3;
+        series.links.template.distance = 1.2;
         series.links.template.tooltipText = "{name}: [bold]{value}[/]";
         series.links.template.interactionsEnabled = true;
         series.links.template.strokeWidth = 5;
