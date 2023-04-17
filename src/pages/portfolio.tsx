@@ -10,6 +10,7 @@ import {
 import "keen-slider/keen-slider.min.css"
 import { MutableRefObject } from 'react';
 import styles from '@/styles/Portfolio.module.css'
+import Topografia from '@/components/Topografia'
 
 function ThumbnailPlugin(
   mainRef: MutableRefObject<KeenSliderInstance | null>
@@ -64,6 +65,7 @@ export default function Portfolio() {
 
     return(
         <>
+        <Topografia />
         <div className='tela'>
             <div className='esquerda'>
             <AnimatedText

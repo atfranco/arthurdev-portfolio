@@ -119,9 +119,9 @@ h1 {
   align-items: center;
 }
 
-/* carrousel */
-[class^="number-slide"],
-[class*=" number-slide"] {
+/* carrousel node etc */
+[class^="stack-slide"],
+[class*="stack-slide"] {
   background: rgba( 255, 255, 255, 0.05 );
   backdrop-filter: blur( 10px );
   display: flex;
@@ -135,6 +135,35 @@ h1 {
   height: 50px;
   max-height: 100vh;
   gap: 12px;
+}
+.stack-slide1 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
+}
+
+.stack-slide2 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
+}
+
+.stack-slide3 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
+}
+
+.stack-slide4 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
+}
+
+.stack-slide5 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
+}
+
+.stack-slide6 {
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 10px );
 }
 
 .wrappercarrousel {

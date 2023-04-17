@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return <Layout>
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
          <Component {...pageProps} />
          </Layout>
 }

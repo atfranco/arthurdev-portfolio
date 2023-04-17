@@ -86,12 +86,12 @@ export default function Sobre() {
             <div className="wrappercarrousel">
             <div className="scenecarrousel">
                 <div className="carousel keen-slider" ref={sliderRef}>
-                <div className="carousel__cell number-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
-                <div className="carousel__cell number-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
-                <div className="carousel__cell number-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
-                <div className="carousel__cell number-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
-                <div className="carousel__cell number-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell number-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
+                <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
+                <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
+                <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
+                <div className="carousel__cell stack-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
+                <div className="carousel__cell stack-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
+                <div className="carousel__cell stack-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
                 </div>
             </div>
             </div>
