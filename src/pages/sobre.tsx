@@ -60,12 +60,12 @@ export default function Sobre() {
             <div className="wrappercarrousel">
             <div className="scenecarrousel">
                 <div className="carousel keen-slider" ref={sliderRef}>
-                <div className="carousel__cell number-slide1 ">ABC</div>
-                <div className="carousel__cell number-slide2">2</div>
-                <div className="carousel__cell number-slide3">3</div>
-                <div className="carousel__cell number-slide4">4</div>
-                <div className="carousel__cell number-slide5">5</div>
-                <div className="carousel__cell number-slide6">6</div>
+                <div className="carousel__cell number-slide1 ">Next.js</div>
+                <div className="carousel__cell number-slide2">Woo</div>
+                <div className="carousel__cell number-slide3">Wordpress</div>
+                <div className="carousel__cell number-slide4">SEO</div>
+                <div className="carousel__cell number-slide5">Figma</div>
+                <div className="carousel__cell number-slide6">PSD</div>
                 </div>
             </div>
             </div>
