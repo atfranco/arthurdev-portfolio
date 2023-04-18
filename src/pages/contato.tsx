@@ -5,8 +5,6 @@ import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
 import { Formulario } from '@/components/Formulario'
 
-
-
 export default function Contato() {
     return (
         <div>
@@ -50,7 +48,6 @@ export default function Contato() {
                     <Espacador />
                     <Formulario />
                     <Espacador />
-                    <Botaoglow />
                 </div>
                 <div className='direita'>
                 <div className={styles.mapa}>
