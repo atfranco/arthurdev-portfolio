@@ -8,17 +8,17 @@ Chart.register(BarController);
 Chart.register(BarElement);
 
 const data = {
-  labels: ['Web', 'Design/Imagens', 'Engenharia Civil', 'Marketing/SEO', 'Ecommerces', '3D'],
+  labels: ['3D', 'Ecommerces', 'Marketing/SEO', 'Engenharia Civil', 'Design/Imagens', 'WEB'],
   datasets: [{
     label: 'Anos de Experiencia',
-    data: [20, 12, 6, 4, 4, 3],
+    data: [3, 4, 4, 6, 11, 15],
     backgroundColor: [
-      'rgba(255, 99, 132, 0.2)',
-      'rgba(54, 162, 235, 0.2)',
-      'rgba(255, 206, 86, 0.2)',
-      'rgba(75, 192, 192, 0.2)',
-      'rgba(153, 102, 255, 0.2)',
-      'rgba(255, 159, 64, 0.2)'
+      'rgba(152, 255, 0, 0.92)',
+      'rgba(152, 255, 0, 0.92)',
+      'rgba(152, 255, 0, 0.92)',
+      'rgba(152, 255, 0, 0.92)',
+      'rgba(152, 255, 0, 0.92)',
+      'rgba(152, 255, 0, 0.92)'
     ],
     borderColor: [
       'rgba(255, 99, 132, 1)',
@@ -28,7 +28,7 @@ const data = {
       'rgba(153, 102, 255, 1)',
       'rgba(255, 159, 64, 1)'
     ],
-    borderWidth: 8
+    borderWidth: 2
   }]
 }
 
@@ -38,10 +38,10 @@ export default function Graficoteste() {
     <div className='flex centraliza'>
     <Bar
       data={data}
-      width={100}
-      height={100}
+      width={300}
+      height={300}
       options={{
-        maintainAspectRatio: true
+        maintainAspectRatio: false
       }}
     />
   </div>

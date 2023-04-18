@@ -4,7 +4,10 @@
     padding: 20px;
     border-radius: 10px;
     z-index: 2;
+    transform:translate(-50px,-50px);
+    transition: 0.5 ease-in-out;
 }
+
 .primeirografico:hover{
     z-index: 5;
 }
@@ -15,6 +18,7 @@
     padding: 20px;
     border-radius: 10px;
     z-index: 3;
+    transform:translate(0px,-50px);
 }
 
 .icone{
