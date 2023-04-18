@@ -1,3 +1,4 @@
+import styles from '@/styles/Formulario.module.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -13,13 +14,11 @@ export const Formulario = () => {
       });
   };
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+
+    <form className={styles.estiloformulario} ref={form} onSubmit={sendEmail}>
+      <input type="text" className={styles.inputtxt} name="user_name" placeholder="Nome" />
+      <input type="email" className={styles.inputtxt}  name="user_email" placeholder="Email" />
+      <textarea className={styles.inputmsg} name="message" placeholder="Mensagem" />
       <input type="submit" value="Enviar" />
     </form>
   );
