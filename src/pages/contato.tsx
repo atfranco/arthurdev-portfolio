@@ -3,7 +3,7 @@ import Botaoglow from '@/components/Botaoglow';
 import Celulasgreen from '@/components/Celulasgreen';
 import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
-import dynamic from 'next/dynamic';
+import { Formulario } from '@/components/Formulario'
 
 
 
@@ -47,39 +47,7 @@ export default function Contato() {
                     <Espacador />
                     <p className='texto'>I am interested in freelance opportunities - especially on ambitious or large projects. However, if you have any other requests or questions, don't hesitate to contact me using below form either.</p>
                     <Espacador />
-                    <form>
-                    <ul>
-                        <li className="half">
-                        <input placeholder="Nome" type="text" name="name" required />
-                        </li>
-                        <li className="half">
-                        <input
-                            placeholder="Email"
-                            type="email"
-                            name="email"
-                            required
-                        />
-                        </li>
-                        <li>
-                        <input
-                            placeholder="Assunto"
-                            type="text"
-                            name="subject"
-                            required
-                        />
-                        </li>
-                        <li>
-                        <textarea
-                            placeholder="Mensagem"
-                            name="message"
-                            required
-                        ></textarea>
-                        </li>
-                        <li>
-                        <input type="submit" className="flat-button" value="ENVIAR" />
-                        </li>
-                    </ul>
-                    </form>
+                    <Formulario />
                     <Botaoglow />
                 </div>
                 <div className='direita'>

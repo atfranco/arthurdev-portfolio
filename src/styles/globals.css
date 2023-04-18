@@ -303,3 +303,90 @@ h1 {
   overflow: visible !important;
 }
 
+/*forms*/
+.contact-form {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+
+}
+
+.contact-form ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.contact-form ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  opacity: 0;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  position: relative;
+  -webkit-animation: fadeInUp 2s 2s;
+          animation: fadeInUp 2s 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.contact-form ul li.half {
+  width: 49%;
+  margin-left: 2%;
+  float: left;
+  clear: none;
+}
+
+.contact-form ul li.half:first-child {
+  margin-left: 0;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
+  width: 100%;
+  border: 0;
+  background: var(--fundo);
+  height: 50px;
+  font-size: 16px;
+  color: var(--clara);
+  padding: 0 20px;
+  border: 1px solid var(--clara);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  background: var(--fundo);
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 150px;
+  border: 1px solid var(--clara);
+  border-radius: 0.5rem;
+}
+
+.contact-form .flat-button {
+  color: var(--cor);
+  background-color: var(--cor);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid var(--clara);
+  float: left;
+  border-radius: 4px;
+  background: 0 0;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+}
