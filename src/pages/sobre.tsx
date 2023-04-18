@@ -83,9 +83,9 @@ export default function Sobre() {
             <Espacador />
             <p className='texto'>I am interested in freelance opportunities - especially on ambitious or large projects. However, if you have any other requests or questions, don't hesitate to contact me using below form either.</p>
             <Espacador />
-            <div className="wrappercarrousel">
-            <div className="scenecarrousel">
-                <div className="carousel keen-slider" ref={sliderRef}>
+            <div className="wrappercarousel">
+            <div className="scenecarousel">
+                <div className="carousel keen-sliderr" ref={sliderRef}>
                 <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
                 <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
                 <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>

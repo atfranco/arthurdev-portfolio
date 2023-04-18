@@ -166,37 +166,43 @@ h1 {
   backdrop-filter: blur( 10px );
 }
 
-.wrappercarrousel {
-  scale: 0.5;
+.wrappercarousel {
   display: flex;
   justify-content: left;
-  margin-left: 40px;
+  padding-left: 40px;
 }
-.scenecarrousel {
+.scenecarousel {
   width: 260px;
-  height: 150px;
+  height: 200px;
   perspective: 1000px;
   position: relative;
-  margin-bottom: 50px;
+  transform: scale(0.4);
 }
-.scenecarrousel .carousel.keen-slider {
+.scenecarousel .carousel.keen-sliderr {
   width: 100%;
   height: 100%;
   overflow: visible;
   position: absolute;
   transform: translateZ(-288px);
   transform-style: preserve-3d;
-  animation: rotacionacarro 100s ease-in-out infinite;
+  animation: rotacionacarro 40s ease-in-out infinite;
 
 }
-
+.carousel__cell {
+  position: absolute;
+  width: 240px;
+  left: 10px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+}
 
 @keyframes rotacionacarro {
   0% {
-    transform: rotateY(0);
+    transform: rotateY(0deg);
   }
-  50% {
-    transform: rotateY(1800deg);
+  50%{
+    transform: rotateY(360deg);
   }
   100% {
     transform: rotateY(0deg);
@@ -229,7 +235,6 @@ h1 {
 }
 
 .number-slide {
-
 
 }
 
