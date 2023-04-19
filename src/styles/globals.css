@@ -49,17 +49,10 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
 h1 {
   position: relative;
   text-shadow: 0px 2px 2px var(--fundo);
 }
-
 
 .animado-titulo {
   font-size: 50px;
@@ -389,4 +382,29 @@ h1 {
   float: right;
   text-align: center;
   margin-right: 10px;
+}
+
+/* RESPONSIVO CELULAR */
+
+@media (max-width: 600px) {
+  .animado-titulo {
+    font-size: 40px;
+  }  
+  .animado-subtitulo {
+    font-size: 18px;
+  }
+  .animado-texto {
+    font-size: 13px;
+  }
+  .tela {
+    display: flex;
+    flex-direction: column;
+  }
+  .esquerda {
+    max-width: 100%;
+  }
+  .direita {
+    min-width: 100%;
+  }
+  /* … */
 }

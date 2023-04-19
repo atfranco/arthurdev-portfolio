@@ -19,7 +19,7 @@ export const Formulario = () => {
       <input type="text" className={styles.inputtxt} name="user_name" placeholder="Nome" />
       <input type="email" className={styles.inputtxt}  name="user_email" placeholder="Email" />
       <textarea className={styles.inputmsg} name="message" placeholder="Mensagem" />
-      <input className={styles.sendbt} type="submit" value="Enviar" />
+      <input className={styles.sendbt} type="submit" value="ENVIAR" />
     </form>
   );
 };

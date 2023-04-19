@@ -11,6 +11,9 @@
 	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
+.inputtxt:hover{
+    background-color: var(--tom);
+}
 .inputtxt::placeholder{
     color: white;
     font-size: 15px;
@@ -34,6 +37,9 @@
     background: rgba(255, 255, 255, 0.05);
 	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
 	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.inputmsg:hover{
+    background-color: var(--tom);
 }
 .inputmsg::placeholder{
     color: white;
@@ -71,7 +77,7 @@
 	text-decoration: none;
 	overflow: hidden;
     font-family: 'Righteous';
-    font-size: 16px;
+    font-size: 14px;
 	color: #fff;
 	font-weight: 400px;
 	z-index: 1;
@@ -82,12 +88,22 @@
 .sendbt:hover{
 	background: var(--tom);
 	padding: 10px;
+	letter-spacing: 0px;
+    font-family: 'Righteous';
+	color: #ffffff;
+	font-weight: 400px;
+	z-index: 1;
+	transition: 0.5s;
+    transform: scale(0.9);
+}
+.sendbt:focus{
+	background: var(--tom);
+	padding: 10px;
 	letter-spacing: 1px;
     font-family: 'Righteous';
 	color: #ffffff;
 	font-weight: 400px;
 	z-index: 1;
 	transition: 0.5s;
-	backdrop-filter: blur(15px);
     transform: scale(0.9);
 }

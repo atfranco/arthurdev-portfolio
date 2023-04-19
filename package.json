@@ -32,6 +32,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
     "react-leaflet": "^4.2.1",
+    "react-loaders": "^3.0.1",
     "react-tooltip": "^5.11.1",
     "three": "^0.151.3",
     "threejs-toys": "^0.0.8",

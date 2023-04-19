@@ -15,7 +15,7 @@ import {
   faWordpress,
   faFigma,
 } from '@fortawesome/free-brands-svg-icons'
-import { time } from '@amcharts/amcharts4/core';
+
 
 const carousel: KeenSliderPlugin = (slider) => {
   const z = 300
@@ -81,7 +81,21 @@ export default function Sobre() {
             </AnimatedText>
             <Espacador />
             <Espacador />
-            <p className='texto'>I am interested in freelance opportunities - especially on ambitious or large projects. However, if you have any other requests or questions, don't hesitate to contact me using below form either.</p>
+            <AnimatedText
+                    type="chars" // animate words or chars
+                    animation={{
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.01}
+                    duration={3}
+                    tag="p"
+                    className="animado-texto"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="50%">
+                    Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta. Com vasta experiência na criação de Sistemas personalizados, E-commerces, Manipulação de dados e Integração de Sistemas.
+                    </AnimatedText>
             <Espacador />
             <div className="wrappercarousel">
             <div className="scenecarousel">
@@ -110,6 +124,5 @@ export default function Sobre() {
                 </div>
             </div>
         </div>
-
     )
 }
