@@ -1,25 +1,26 @@
-import CELLS from '../../node_modules/vanta/src/vanta.cells'
+import HALLO from '../../node_modules/vanta/src/vanta.halo'
 import { useEffect, useRef, useState } from "react";
 import styles from '../styles/Celulas.module.css'
 
-export default function Celulasgreen() {
+export default function Vhalo() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        CELLS({
+        HALLO({
           el: vantaRef.current,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
           minHeight: 200.00,
           minWidth: 200.00,
-          scale: 1.00,
-          color1: 0x00ff62,
-          color2: 0x0a5226,
-          size: 3,
-          speed: 2.50
+          baseColor: 0x431313,
+          backgroundColor: 0x431313,
+          amplitudeFactor: 2.0,
+          xOffset: 0.5,
+          yOffset: 0.5,
+          size: 3.00
         })
       );
     }

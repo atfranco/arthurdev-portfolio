@@ -11,6 +11,8 @@ import "keen-slider/keen-slider.min.css"
 import { MutableRefObject } from 'react';
 import styles from '@/styles/Portfolio.module.css'
 import Topografia from '@/components/Topografia'
+import Vtrunk from '@/components/Vtrunk'
+import Vhalo from '@/components/Vhalo'
 
 function ThumbnailPlugin(
   mainRef: MutableRefObject<KeenSliderInstance | null>
@@ -65,7 +67,7 @@ export default function Portfolio() {
 
     return(
         <>
-        <Topografia />
+        <Vhalo />
         <div className='tela'>
             <div className='esquerda'>
             <AnimatedText

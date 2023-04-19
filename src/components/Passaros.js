@@ -10,8 +10,7 @@ export default function Passaros() {
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
-          el: vantaRef.current,
-          THREE,
+          el: vantaRef.current,          
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
