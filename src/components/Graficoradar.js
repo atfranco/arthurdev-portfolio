@@ -1,14 +1,16 @@
 import React from 'react';
 import { Line, Radar } from 'react-chartjs-2';
-import {  Chart, RadialLinearScale, PointElement, LineController, LineElement } from "chart.js";
+import {  Chart, RadialLinearScale, PointElement, LineController, LineElement, Filler } from "chart.js";
 
 Chart.register(RadialLinearScale);
 Chart.register(PointElement);
 Chart.register(LineController);
 Chart.register(LineElement);
+Chart.register(Filler);
 Chart.defaults.borderColor = '#fff';
 Chart.defaults.color = 'rgba(152, 255, 0, 0.92)';
 Chart.defaults.fontsize = '40px';
+
 
 
 const data = {
