@@ -3,8 +3,7 @@ import Celulasgreen from '@/components/Celulasgreen';
 import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
 import { Formulario } from '@/components/Formulario'
-import dynamic from "next/dynamic"
-
+import Mapa from '@/components/Mapa'
 
 export default function Contato() {
   
@@ -67,8 +66,8 @@ export default function Contato() {
                 </div>
                 <div className='direita'>
                 <div className={styles.mapa}>
-                <h1>MAPA</h1>
-                              
+                    <Mapa />
+                <h1>MAPA</h1>                              
                 </div>
             </div>
         </div>
