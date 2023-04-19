@@ -386,7 +386,7 @@ h1 {
 
 /* RESPONSIVO CELULAR */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .animado-titulo {
     font-size: 40px;
   }  
@@ -406,5 +406,4 @@ h1 {
   .direita {
     min-width: 100%;
   }
-  /* … */
 }

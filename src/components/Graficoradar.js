@@ -6,6 +6,9 @@ Chart.register(RadialLinearScale);
 Chart.register(PointElement);
 Chart.register(LineController);
 Chart.register(LineElement);
+Chart.defaults.borderColor = '#fff';
+Chart.defaults.color = 'rgba(152, 255, 0, 0.92)';
+Chart.defaults.fontsize = '40px';
 
 
 const data = {
@@ -15,9 +18,8 @@ const data = {
       'SITES',
       'API',
       'BACKEND',
-
       '3DENGINES',
-    ],
+    ],        
     datasets: [{
       label: 'My First Dataset',
       data: [5, 5, 5, 4, 3, 4],
@@ -27,10 +29,10 @@ const data = {
       pointBackgroundColor: 'rgba(186, 137, 200, 0.92)',
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#000',
-      pointHoverBorderColor: 'rgba(152, 255, 0, 0.92)'
+      pointHoverBorderColor: 'rgba(152, 255, 0, 0.92)',    
+      
     }]
-  };
-
+};
   export default function Graficoradar() {
     return (
       <>
