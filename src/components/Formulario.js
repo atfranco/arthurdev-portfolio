@@ -13,8 +13,8 @@ export const Formulario = () => {
           console.log(error.text);
       });
   };
+  
   return (
-
     <form className={styles.estiloformulario} ref={form} onSubmit={sendEmail}>
       <input type="text" className={styles.inputtxt} name="user_name" placeholder="Nome" />
       <input type="email" className={styles.inputtxt}  name="user_email" placeholder="Email" />

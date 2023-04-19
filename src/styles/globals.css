@@ -55,7 +55,7 @@ h1 {
 }
 
 .animado-titulo {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: var(--tom);
   text-shadow: 2px 3px 3px var(--fundo);
@@ -227,10 +227,6 @@ h1 {
   background: rgba( 255, 255, 255, 0.1 );
 }
 
-.number-slide {
-
-}
-
 .number-slide1 {  
   background: url(/imagens/portfolio/layoutnova01.png);
   background-repeat:no-repeat;
@@ -301,7 +297,6 @@ h1 {
   width: 100%;
   margin-top: 20px;
   position: relative;
-
 }
 
 .contact-form ul {
@@ -388,10 +383,10 @@ h1 {
 
 @media (max-width: 700px) {
   .animado-titulo {
-    font-size: 40px;
+    font-size: 34px;
   }  
   .animado-subtitulo {
-    font-size: 18px;
+    font-size: 17px;
   }
   .animado-texto {
     font-size: 13px;
