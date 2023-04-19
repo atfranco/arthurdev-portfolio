@@ -9,6 +9,7 @@ export default function Celulasgreen() {
     if (!vantaEffect) {
       setVantaEffect(
         CELLS({
+          THREE,
           el: vantaRef.current,
           mouseControls: true,
           touchControls: true,
@@ -19,7 +20,7 @@ export default function Celulasgreen() {
           color1: 0x00ff62,
           color2: 0x0a5226,
           size: 3,
-          speed: 2.50
+          speed: 2
         })
       );
     }

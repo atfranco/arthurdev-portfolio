@@ -2,7 +2,6 @@ import BIRDS from '../../node_modules/vanta/src/vanta.birds'
 import { useEffect, useRef, useState } from "react";
 import styles from '../styles/Passaros.module.css';
 
-
 export default function Passaros() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
@@ -10,6 +9,7 @@ export default function Passaros() {
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
+          THREE,
           el: vantaRef.current,          
           mouseControls: true,
           touchControls: true,

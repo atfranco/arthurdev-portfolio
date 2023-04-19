@@ -9,6 +9,7 @@ export default function Vhalo() {
     if (!vantaEffect) {
       setVantaEffect(
         HALLO({
+          THREE,
           el: vantaRef.current,
           mouseControls: true,
           touchControls: true,
