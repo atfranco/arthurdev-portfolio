@@ -105,25 +105,24 @@ export default function Portfolio() {
             <Botaoglow />
             </div>
             <div className='direita'>
-              <div className={styles.enquadragaleria}></div>
-            <div ref={sliderRef} className="keen-slider">
-              <div className="keen-slider__slide number-slide1"></div>
-              <div className="keen-slider__slide number-slide2"></div>
-              <div className="keen-slider__slide number-slide3"></div>
-              <div className="keen-slider__slide number-slide4"></div>
-              <div className="keen-slider__slide number-slide5"></div>
-              <div className="keen-slider__slide number-slide6"></div>
-            </div>
-
-            <div ref={thumbnailRef} className="keen-slider thumbnail">
-              <div className="keen-slider__slide number-slide1">PLANOACCD</div>
-              <div className="keen-slider__slide number-slide2">ADVOCACIA MARQUESI</div>
-              <div className="keen-slider__slide number-slide3">LAYOUT EVENTOS</div>
-              <div className="keen-slider__slide number-slide4">FMMLR SHOP</div>
-              <div className="keen-slider__slide number-slide5">EKOPUFFS</div>
-              <div className="keen-slider__slide number-slide6">LOMA CONSULTORIA</div>
-            </div>
-              
+              <div className={styles.enquadragaleria}>
+              <div ref={sliderRef} className="keen-slider">
+                <div className="keen-slider__slide number-slide1"></div>
+                <div className="keen-slider__slide number-slide2"></div>
+                <div className="keen-slider__slide number-slide3"></div>
+                <div className="keen-slider__slide number-slide4"></div>
+                <div className="keen-slider__slide number-slide5"></div>
+                <div className="keen-slider__slide number-slide6"></div>
+              </div>
+              <div ref={thumbnailRef} className="keen-slider thumbnail">
+                <div className="keen-slider__slide number-slide1">PLANOACCD</div>
+                <div className="keen-slider__slide number-slide2">ADVOCACIA MARQUESI</div>
+                <div className="keen-slider__slide number-slide3">LAYOUT EVENTOS</div>
+                <div className="keen-slider__slide number-slide4">FMMLR SHOP</div>
+                <div className="keen-slider__slide number-slide5">EKOPUFFS</div>
+                <div className="keen-slider__slide number-slide6">LOMA CONSULTORIA</div>
+              </div>
+              </div>              
             </div>
         </div>
         </>
