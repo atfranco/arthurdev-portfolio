@@ -3,9 +3,11 @@ import Celulasgreen from '@/components/Celulasgreen';
 import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
 import { Formulario } from '@/components/Formulario'
-import Mapa from '@/components/Mapa'
+import Map from '@/components/Map';
 
-export default function Contato() {
+const DEFAULT_CENTER = [-23.5400208, -46.6753272]
+
+export default function Contato() {   
   
     return (
         <div>
@@ -65,10 +67,18 @@ export default function Contato() {
                     <Espacador />
                 </div>
                 <div className='direita'>
-                <div className={styles.mapa}>
-                    <Mapa />
-                <h1>MAPA</h1>                              
-                </div>
+                    <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={14}>
+                    {({ TileLayer, Marker, Popup }) => (
+                    <>
+                        <TileLayer/>
+                        <Marker position={DEFAULT_CENTER}>
+                        <Popup>
+                            MSG. <br /> Easily customizable.
+                        </Popup>
+                        </Marker>
+                    </>
+                    )}
+                </Map>                          
             </div>
         </div>
         </div>        
