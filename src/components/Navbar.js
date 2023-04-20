@@ -78,7 +78,7 @@ export default function Navbar() {
             </Link>
             <Link
               href={{
-                  pathname: '/portfolio',
+                  pathname: '/works',
               }}
               onClick={usaPortfolio}
               data-tooltip-delay-hide={300}

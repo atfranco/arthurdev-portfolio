@@ -19,4 +19,16 @@
 .coluna{
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+.coluna:hover{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.portfoliocomponente{
+
+}
+.portfoliocomponente:hover{
+    transform: scale(1.1);    
 }

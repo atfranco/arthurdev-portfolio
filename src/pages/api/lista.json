@@ -1,0 +1,12 @@
+[
+    { "id": "01", "nome": "Layout Eventos", "descricao": "Layout descricao", "tipo": "Site Institucional", "endereco": "https://layouteventos.com.br", "imagem": "" },
+    { "id": "02", "nome": "Portal Marquesi", "descricao": "PM descricao", "tipo": "Saas", "endereco": "https://layouteventos.com.br", "imagem": "" },
+    { "id": "03", "nome": "PlanoACCD", "descricao": "planoaccd descricao", "tipo": "Site Institucional", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "04", "nome": "Loma Advocacia", "descricao": "planoaccd descricao", "tipo": "SaaS", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "05", "nome": "Fmmlr Shop", "descricao": "Fmmlr descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "06", "nome": "GrowZero011", "descricao": "Fmmlr descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "07", "nome": "Aromaterapia", "descricao": "Fmmlr descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "07", "nome": "Cais Shop", "descricao": "Cais descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "07", "nome": "Alphaboulder", "descricao": "Fmmlr descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" },
+    { "id": "07", "nome": "Ekopuffs", "descricao": "Fmmlr descricao", "tipo": "Ecommerce", "endereco": "https://planoaccd.com.br", "imagem": "" }
+  ]
