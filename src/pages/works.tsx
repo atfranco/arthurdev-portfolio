@@ -2,11 +2,9 @@ import styles from '@/styles/Posts.module.css';
 import Cardportfolio from '@/components/Cardportfolio';
 import Espacador from '@/components/Espacador';
 
-
 type Data = {
     name: string;
 };
-
 type Works = {
     id: string;
     nome: string;

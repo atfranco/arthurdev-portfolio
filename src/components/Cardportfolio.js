@@ -11,15 +11,11 @@ export default function Cardportfolio({ work }) {
     return (
         <div className='animaportfolio'>
             <div className={styles.portfoliocomponente}>
-                <div className={styles.fora}>  
-                <Link
-                href={`${work.endereco}`}
-                target={'_blank'}>              
+                <div className={styles.fora}>              
                 <Image
                 src={`/imagens/portfolio/${work.imagem}`}
                 layout="fill"
-                className={styles.foto}/>
-                </Link>
+                className={styles.foto}/>   
                 </div>
                 <div className={styles.card}>
                     <div className={styles.divideesq}>
