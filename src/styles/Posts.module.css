@@ -5,3 +5,18 @@
     margin-bottom: 20px;
     position: relative;
 }
+
+.coluna p {
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.082);
+    border-bottom: 1px solid black;
+}
+
+.formata{
+    display: flex;
+    flex-direction: row;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}

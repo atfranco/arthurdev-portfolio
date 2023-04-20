@@ -1,6 +1,5 @@
 import AnimatedText from 'react-animated-text-content';
 import Botaoglow from '@/components/Botaoglow';
-import Image from 'next/image'
 import Espacador from '@/components/Espacador';
 import {
   useKeenSlider,
@@ -10,8 +9,6 @@ import {
 import "keen-slider/keen-slider.min.css"
 import { MutableRefObject } from 'react';
 import styles from '@/styles/Portfolio.module.css'
-import Topografia from '@/components/Topografia'
-import Vtrunk from '@/components/Vtrunk'
 import Vhalo from '@/components/Vhalo'
 
 function ThumbnailPlugin(

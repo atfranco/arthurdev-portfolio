@@ -7,13 +7,15 @@ Chart.register(PointElement);
 Chart.register(LineController);
 Chart.register(LineElement);
 Chart.register(Filler);
-Chart.defaults.borderColor = '#fff';
+Chart.defaults.borderColor = '#ffffff20';
 Chart.defaults.color = 'rgba(152, 255, 0, 0.92)';
-Chart.defaults.fontsize = '40px';
+Chart.defaults.fontSize = '60px';
+
 
 
 
 const data = {
+
     labels: [
       'UI/UX',
       'FRONTEND',
@@ -23,18 +25,18 @@ const data = {
       '3DENGINES',
     ],        
     datasets: [{
-      label: 'My First Dataset',
+      label: 'Especialidades',
       data: [5, 5, 5, 4, 3, 4],
-      fill: true,
+      fill: true, 
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgba(152, 255, 0, 0.92)',
       pointBackgroundColor: 'rgba(186, 137, 200, 0.92)',
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#000',
       pointHoverBorderColor: 'rgba(152, 255, 0, 0.92)',    
-      
-    }]
+    }]    
 };
+
   export default function Graficoradar() {
     return (
       <>

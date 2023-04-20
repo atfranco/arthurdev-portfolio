@@ -16,6 +16,7 @@
 .container:hover {
     scale: 1.1;
 }
+
 .container .btn {
 	position: relative;
 	top: 0;
@@ -27,6 +28,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .container .btn a {
 	position: absolute;
 	top: 0;
@@ -52,10 +54,12 @@
 	transition: 0.5s;
 	backdrop-filter: blur(15px);
 }
+
 .container .btn:hover a {
 	letter-spacing: 1px;
     color: var(--fundo)
 }
+
 .container .btn a::before {
 	content: "";
 	position: absolute;
@@ -68,9 +72,11 @@
 	transition: 0.5s;
 	filter: blur(0px);
 }
+
 .container .btn:hover a::before {
 	transform: skewX(45deg) translate(20px);
 }
+
 .container .btn::before {
 	content: "";
 	position: absolute;
@@ -84,6 +90,7 @@
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
+
 .container .btn:hover::before /*lightup button*/ {
 	bottom: 0;
 	height: 50%;
@@ -105,6 +112,7 @@
 	transition: 0.5s;
 	transition-delay: 0.5;
 }
+
 .container .btn:hover::after /*lightup button*/ {
 	top: 0;
 	height: 50%;
@@ -112,12 +120,14 @@
 	border-radius: 30px;
     left: 50%;
 }
+
 .container .btn:nth-child(1)::before, /*chnage 1*/
 .container .btn:nth-child(1)::after {
 	background: var(--tom);
 	box-shadow: 0 0 5px var(--tom), 0 0 15px var(--fundo), 0 0 30px var(--fundo),
 		0 0 40px var(--tom);
 }
+
 .cor{
-	color: #19237a
+	color: #ffffff17
 }
