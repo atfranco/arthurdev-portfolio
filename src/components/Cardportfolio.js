@@ -15,6 +15,7 @@ export default function Cardportfolio({ work }) {
                 <Image
                 src={`/imagens/portfolio/${work.imagem}`}
                 layout="fill"
+                alt={work.nome}
                 className={styles.foto}/>   
                 </div>
                 <div className={styles.card}>
