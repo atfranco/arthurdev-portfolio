@@ -8,7 +8,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "id":"01",
           "nome":"Layout Eventos",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-          "tipo":"Site Institucional",
+          "tipo":"Institucional",
           "endereco":"https://layouteventos.com.br",
           "imagem":"layoutnova01.png"
       },
@@ -24,7 +24,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "id":"03",
           "nome":"PlanoACCD",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-          "tipo":"Site Institucional",
+          "tipo":"Institucional",
           "endereco":"https://planoaccd.com.br",
           "imagem":"planoa01.png"
       },
@@ -32,7 +32,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "id":"04",
           "nome":"Loma Advocacia",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-          "tipo":"Site Institucional",
+          "tipo":"Institucional",
           "endereco":"https://loma.com.br",
           "imagem":"loma01.png"
       },
@@ -56,7 +56,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "id":"07",
           "nome":"Aromaterapia",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
-          "tipo":"Site Institucional",
+          "tipo":"Institucional",
           "endereco":"https://planoaccd.com.br",
           "imagem":"aroma01.png"
       },

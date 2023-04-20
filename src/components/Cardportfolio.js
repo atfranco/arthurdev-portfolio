@@ -33,7 +33,7 @@ export default function Cardportfolio({ work }) {
                         <Link
                         href={`${work.endereco}`}
                         target={'_blank'}>  
-                        <FontAwesomeIcon className={styles.icones} icon={faLink}/>
+                        <FontAwesomeIcon className={styles.icone} icon={faLink}/>
                         </Link>
                     </div>
                 </div>
