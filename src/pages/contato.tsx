@@ -67,18 +67,21 @@ export default function Contato() {
                     <Espacador />
                 </div>
                 <div className='direita'>
-                    <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={14}>
-                    {({ TileLayer, Marker, Popup }) => (
-                    <>
-                        <TileLayer/>
+                    <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
+                {({ TileLayer, Marker, Popup }) => (
+                <>
+                        <TileLayer
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+                        />
                         <Marker position={DEFAULT_CENTER}>
                         <Popup>
-                            MSG. <br /> Easily customizable.
+                            A pretty CSS3 popup. <br /> Easily customizable.
                         </Popup>
                         </Marker>
-                    </>
-                    )}
-                </Map>                          
+                        </>
+                        )}
+                    </Map>                         
             </div>
         </div>
         </div>        
