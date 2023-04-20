@@ -8,7 +8,6 @@
     border-radius: 5px;
 }
 
-.homemap{
-    width: 100%;
-    height: 300px !important;
+.some {
+    display: none;
 }

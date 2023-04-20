@@ -70,7 +70,7 @@ export default function Contato() {
                     <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
                 {({ TileLayer, Marker, Popup }) => (
                 <>
-                        <TileLayer
+                        <TileLayer 
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                         />
