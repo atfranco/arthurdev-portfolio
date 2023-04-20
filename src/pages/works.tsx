@@ -15,7 +15,7 @@ type Works = {
 };
 
 export async function getStaticProps() {
-    const data = await fetch('https://arthurdev-portfolio.vercel.app/api/trabalho')
+    const data = await fetch('http://localhost:3000/api/trabalhos')
     const works = await data.json()
     console.log(works)
     return {
