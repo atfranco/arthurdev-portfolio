@@ -10,9 +10,8 @@ const DEFAULT_CENTER = [-23.5400208, -46.6753272]
 export default function Contato() {   
   
     return (
-        <div>
-            <Celulasgreen />
             <div className='tela'>
+            <Celulasgreen />
                 <div className='esquerda'>
                     <AnimatedText
                         type="chars" // animate words or chars
@@ -83,7 +82,6 @@ export default function Contato() {
                         )}
                     </Map>                         
             </div>
-        </div>
-        </div>        
+        </div>       
     )
 }

@@ -58,7 +58,6 @@
     flex-direction: column;
     gap: 20px;  
     font-family: 'Righteous';
-    max-width: 550px;
 }
 .sendbt{
 	top: 0;

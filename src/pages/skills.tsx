@@ -8,8 +8,9 @@ const Chartforce = dynamic(() => import('@/components/Chartforce'), {
 
 export default function Skills() {
     return(
-        <div>
+        <div className='tela'>
             <Chartforce />
+            <div className='esquerda'>
             <AnimatedText
             type="chars" // animate words or chars
             animation={{
@@ -26,6 +27,8 @@ export default function Skills() {
             Habilidades
             </AnimatedText>
             <Botaoglow />
+            </div>
+            <div className='direita'></div>
         </div>
 
     )
