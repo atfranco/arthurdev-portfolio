@@ -32,3 +32,23 @@
 .portfoliocomponente:hover{
     transform: scale(1.1);    
 }
+
+.esquerdaportfolio {
+    width: 50%;
+  }
+
+.telaportfolio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+    position: absolute;
+    margin-top: -300px;
+}
+
+.stickycontainer{
+    position: -webkit-sticky; /* apenas chrome e webkit nightly */
+    position: sticky;
+    top: 100px;
+    margin-top: 180px;
+}

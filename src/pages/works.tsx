@@ -1,6 +1,7 @@
 import styles from '@/styles/Posts.module.css';
 import Cardportfolio from '@/components/Cardportfolio';
 import Espacador from '@/components/Espacador';
+import Botaoglow from '@/components/Botaoglow';
 
 type Data = {
     name: string;
@@ -25,10 +26,13 @@ export async function getStaticProps() {
 export default function Works({ works }) {
     return (
         <>
-        <div className='tela'>
-            <div className='esquerda'>
-                <h1>Trabalhos recentes</h1>
-                <Espacador />
+        <div className={styles.telaportfolio}>
+            <div className={styles.esquerdaportfolio}>
+                <div className={styles.stickycontainer}>
+                    <h1>Trabalhos recentes</h1>
+                    <Espacador />
+                    <Botaoglow />
+                </div>
             </div>
             <div className='direita'>
                 <div className={styles.formata}>
