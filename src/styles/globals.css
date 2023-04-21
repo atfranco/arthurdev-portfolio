@@ -124,6 +124,10 @@ h1 {
   transform: rotate(0deg) translate(0px, 0px) !important;
   box-shadow: 0 0 0px 0, 0 0 0px !important;
 }
+#nprogress .spinner-icon {
+  border-top-color: var(--tom) !important;
+  border-left-color: var(--clara) !important;
+}
 
 .esquerda {
   width: 50%;

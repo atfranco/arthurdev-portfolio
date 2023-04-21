@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return <Layout>
         <NextNProgress
-        options={{ easing: 'ease-out', speed: 700 }}
+        options={{ easing: 'ease-out', speed: 800 }}
         startPosition={0.3}
         stopDelayMs={200}
         height={10}
