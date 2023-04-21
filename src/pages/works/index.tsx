@@ -10,7 +10,6 @@ type Works = {
     descricao: any;
 };
 
-
 export async function getStaticProps() {
     const data = await fetch('https://arthurdev-portfolio.vercel.app/api/trabalhos')
     const works = await data.json()
@@ -21,6 +20,7 @@ export async function getStaticProps() {
 }
 
 export default function Works({ works }) {
+
     return (
         <>
         <div className={styles.telaportfolio}>
@@ -33,9 +33,10 @@ export default function Works({ works }) {
             </div>
             <div className='direita'>
                 <div className={styles.formata}>
-                        <div className={styles.coluna}>
-                        {works.map((work) => 
-                        (<Cardportfolio key={works.id} work={work} />))}
+                        <div
+                        className={styles.coluna}>
+                            {works.map((work) => 
+                            (<Cardportfolio key={works.id} work={work} />))}
                         </div>
                 </div>                
             </div>
