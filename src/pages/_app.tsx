@@ -8,11 +8,11 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return <Layout>
         <NextNProgress
-        color="#29D"
-        startPosition={0.2}
-        stopDelayMs={500}
+        options={{ easing: 'ease-out', speed: 700 }}
+        startPosition={0.3}
+        stopDelayMs={200}
         height={10}
-        showOnShallow={true} />
+        showOnShallow={false} />
          <Component {...pageProps} />
          </Layout>
 }

@@ -3,7 +3,6 @@ import Cardportfolio from '@/components/Cardportfolio';
 import Espacador from '@/components/Espacador';
 import Botaoglow from '@/components/Botaoglow';
 import Fundoxadrez from '@/components/Fundoxadrez'
-import Loader from 'react-loaders'
 
 type Works = {
     id: string;

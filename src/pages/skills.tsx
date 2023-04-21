@@ -5,12 +5,9 @@ const Chartforce = dynamic(() => import('@/components/Chartforce'), {
   })
 
 export default function Skills() {
-    return(
+    return(      
         <div className='tela'>
             <Chartforce />
-            <div className='esquerda'>
-            </div>
-            <div className='direita'></div>
         </div>
     )
 }
