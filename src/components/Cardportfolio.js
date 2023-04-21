@@ -24,7 +24,9 @@ export default function Cardportfolio({ work }) {
                     src={`/imagens/portfolio/${work.imagem}`}
                     width={600}
                     height={400}
-                    alt={work.nome}/>  				
+                    alt={work.nome}
+                    className={styles.foto}
+                    />  				
                     ]
                     }
 			/>

@@ -27,7 +27,7 @@ const usaHome = () => {
   };
   const usaSkills = () => {
     const root = document.documentElement;
-    root.style.setProperty('--hue-color', '35');
+    root.style.setProperty('--hue-color', '20');
   };
   const usaPortfolio = () => {
     const root = document.documentElement;
@@ -35,7 +35,7 @@ const usaHome = () => {
   };
   const usaContato = () => {
     const root = document.documentElement;
-    root.style.setProperty('--hue-color', '150');
+    root.style.setProperty('--hue-color', '85');
   };
 
 export default function Navbar() {
