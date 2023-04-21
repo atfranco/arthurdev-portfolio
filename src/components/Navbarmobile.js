@@ -38,14 +38,10 @@ const usaHome = () => {
     root.style.setProperty('--hue-color', '85');
   };
 
-export default function Navbar() {
+export default function Navbarmobile() {
     return (   
-        <div className={styles.navbar}>
-            <div className={styles.logomenu}>
-                <h1 className={styles.logo}>ATF</h1>
-                <h2 className={styles.logo}>WEB</h2>
-            </div>
-            <div className={styles.iconesmenu}>
+        <div className={styles.navbarmobile}>
+            <div className={styles.iconesmenumobile}>
             <Link
               href={{
                   pathname: '/',
@@ -96,11 +92,6 @@ export default function Navbar() {
               <FontAwesomeIcon className={styles.icones} icon={faEnvelope}/>
               <Tooltip className='tool-contato' anchorSelect=".tool-contato" place="right">CONTATO</Tooltip>            
             </Link>
-            </div>
-            <div className={styles.socialmenu}>
-                <FontAwesomeIcon className={styles.icones} icon={faLinkedin}/>
-                <FontAwesomeIcon className={styles.icones} icon={faInstagram}/>
-                <FontAwesomeIcon className={styles.icones} icon={faGithub}/>
             </div>
         </div>        
     )

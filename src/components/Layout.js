@@ -1,4 +1,5 @@
 import Navbar from './Navbar'
+import Navbarmobile from '@/components/Navbarmobile'
 import styles from '../styles/Layout.module.css'
 
 export default function Layout({children}) {
@@ -12,6 +13,7 @@ export default function Layout({children}) {
                 <p className={styles.hbottom}>&lt;/body&gt;</p>
                 <p className={styles.hbottom}>&lt;/html&gt;</p>
             </div>
+            <Navbarmobile />
         </>
     )
 }
