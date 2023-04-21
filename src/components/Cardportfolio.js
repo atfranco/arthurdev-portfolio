@@ -10,22 +10,25 @@ import Espacador from './Espacador';
 import FsLightbox from "fslightbox-react";
 
 export default function Cardportfolio({ work }) {
+
     const [toggler, setToggler] = useState(false);
 
-    return (        
-        <div className='animaportfolio'>
+    return (   
+        <div>
             <FsLightbox
-				toggler={toggler}
-				sources={[
-					<div className={styles.fora}>              
-                <Image
-                src={`/imagens/portfolio/${work.imagem}`}
-                layout="fill"
-                alt={work.nome}
-                className={styles.foto}/>   
-                </div>					
-				]}
+			toggler={toggler}
+            loadOnlyCurrentSource={true}
+			sources={
+                    [            
+                    <Image
+                    src={`/imagens/portfolio/${work.imagem}`}
+                    width={600}
+                    height={400}
+                    alt={work.nome}/>  				
+                    ]
+                    }
 			/>
+        <div className='animaportfolio'>
             <div className={styles.portfoliocomponente}>
                 <div className={styles.fora}>              
                 <Image
@@ -52,6 +55,7 @@ export default function Cardportfolio({ work }) {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         
     )

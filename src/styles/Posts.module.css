@@ -51,5 +51,15 @@
     position: sticky;
     top: 100px;
     margin-top: 180px;
-    z-index: 10;
+    z-index: 0;
+}
+@media (max-width: 700px) {
+    .telaportfolio {
+        flex-direction: column;
+    }
+    .esquerdaportfolio {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
 }
