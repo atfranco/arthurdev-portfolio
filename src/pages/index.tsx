@@ -30,7 +30,7 @@ export default function Home() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Arthur Franco
+            &#123;Arthur.Franco&#125;
           </AnimatedText>
           <Espacador />
           <AnimatedText
@@ -46,7 +46,7 @@ export default function Home() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Desenvolvedor Front End / Especialista em Wordpress / Designer Gráfico
+            Desenvolvedor Front End + Especialista em Wordpress + Designer Gráfico
           </AnimatedText>
           <Espacador />
           <AnimatedText
@@ -62,7 +62,7 @@ export default function Home() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta. Com vasta experiência na criação de Sistemas personalizados, E-commerces, Manipulação de dados e Integração de Sistemas.
+            Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta. Com vasta experiência na criação Sites, E-commerces, Manipulação de dados e Integração de Sistemas.
           </AnimatedText>
           <Botaoglow />
         </div>

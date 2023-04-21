@@ -16,7 +16,6 @@ import {
   faFigma,
 } from '@fortawesome/free-brands-svg-icons'
 
-
 const carousel: KeenSliderPlugin = (slider) => {
   const z = 300
   function rotate() {
@@ -34,7 +33,6 @@ const carousel: KeenSliderPlugin = (slider) => {
 }
 
 export default function Sobre() {
-
     const [sliderRef] = useKeenSlider<HTMLDivElement>(
         {
           loop: true,
@@ -94,20 +92,36 @@ export default function Sobre() {
                     includeWhiteSpaces
                     threshold={0.1}
                     rootMargin="50%">
-                    Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta. Com vasta experiência na criação de Sistemas personalizados, E-commerces, Manipulação de dados e Integração de Sistemas.
-                    </AnimatedText>
+                    Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.
+            </AnimatedText>
+            <AnimatedText
+                    type="chars" // animate words or chars
+                    animation={{
+                        ease: 'ease-in-out',
+                    }}
+                    animationType="bounce"
+                    interval={0.02}
+                    duration={4}
+                    tag="p"
+                    className="animado-texto"
+                    includeWhiteSpaces
+                    threshold={0.1}
+                    rootMargin="50%">
+                    Me especializando em Javascript e banco de dados para atingir FullStack em MERN:
+                    "MongoDB + Express + React + Node.JS"
+            </AnimatedText>
             <Espacador />
             <div className="wrappercarousel">
-            <div className="scenecarousel">
-                <div className="carousel keen-sliderr" ref={sliderRef}>
-                <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
-                <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
-                <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
-                <div className="carousel__cell stack-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
-                <div className="carousel__cell stack-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
-                <div className="carousel__cell stack-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
-                </div>
-            </div>
+              <div className="scenecarousel">
+                  <div className="carousel keen-sliderr" ref={sliderRef}>
+                    <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
+                    <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
+                    <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
+                    <div className="carousel__cell stack-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
+                    <div className="carousel__cell stack-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
+                    <div className="carousel__cell stack-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
+                  </div>
+              </div>
             </div>
             <Botaoglow />
             <Espacador /> 

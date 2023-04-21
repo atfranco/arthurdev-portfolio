@@ -89,11 +89,13 @@
 	padding: 10px;
 	letter-spacing: 0px;
     font-family: 'Righteous';
-	color: #ffffff;
+	color: var(--fundo);
 	font-weight: 400px;
 	z-index: 1;
 	transition: 0.5s;
-    transform: scale(0.9);
+    transform: scale(0.95);
+    cursor: crosshair;
+    
 }
 .sendbt:focus{
 	background: var(--tom);

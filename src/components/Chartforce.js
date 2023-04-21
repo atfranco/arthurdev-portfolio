@@ -48,7 +48,7 @@ class Graficoforce extends Component {
                 },
                 {
                   name: "MKT",
-                  value: 200,
+                  value: 300,
                   children: [  
                       { name: "SEO", value: 80},
                       { name: "ANALYTICS", value: 80},
@@ -89,7 +89,7 @@ class Graficoforce extends Component {
                 },
                 {
                     name: "DESIGN",
-                    value: 200,
+                    value: 300,
                     children: [  
                         { name: "CRIAÇÃO DE LOGOTIPOS", value: 100},
                         { name: "IDENTIDADE VISUAL", value: 100},
