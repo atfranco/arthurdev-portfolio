@@ -54,7 +54,7 @@ export default function Navbar() {
               data-tooltip-delay-hide={300}
               className="tool-home">
               <FontAwesomeIcon className={styles.icones} icon={faHome}/>
-              <Tooltip className='tool-menu' anchorSelect=".tool-home" place="right">HOME</Tooltip>            
+              <Tooltip className='tool-home' anchorSelect=".tool-home" place="right">HOME</Tooltip>            
             </Link>
             <Link
               href={{
@@ -101,6 +101,54 @@ export default function Navbar() {
                 <FontAwesomeIcon className={styles.icones} icon={faLinkedin}/>
                 <FontAwesomeIcon className={styles.icones} icon={faInstagram}/>
                 <FontAwesomeIcon className={styles.icones} icon={faGithub}/>
+            </div>
+
+            <div className={styles.iconesmenumobile}>
+            <Link
+              href={{
+                  pathname: '/',
+              }}
+              onClick={usaHome}
+              data-tooltip-delay-hide={300}
+              className="tool-home">
+              <FontAwesomeIcon className={styles.icones} icon={faHome}/>          
+            </Link>
+            <Link
+              href={{
+                  pathname: '/sobre',
+              }}
+              onClick={usaSobre}
+              data-tooltip-delay-hide={300}
+              className="tool-user">
+              <FontAwesomeIcon className={styles.icones} icon={faUser}/>         
+            </Link>
+            <Link
+              href={{
+                  pathname: '/skills',
+              }}
+              onClick={usaSkills}
+              data-tooltip-delay-hide={300}
+              className="tool-skills">
+              <FontAwesomeIcon className={styles.icones} icon={faTools}/>           
+            </Link>
+            <Link
+              href={{
+                  pathname: '/works',
+              }}
+              onClick={usaPortfolio}
+              data-tooltip-delay-hide={300}
+              className="tool-portfolio">
+              <FontAwesomeIcon className={styles.icones} icon={faSuitcase}/>           
+            </Link>
+            <Link
+              href={{
+                  pathname: '/contato',
+              }}
+              onClick={usaContato}
+              data-tooltip-delay-hide={300}
+              className="tool-contato">
+              <FontAwesomeIcon className={styles.icones} icon={faEnvelope}/>           
+            </Link>
             </div>
         </div>        
     )
