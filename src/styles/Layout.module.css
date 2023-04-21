@@ -25,6 +25,7 @@
     opacity: 0.6;
 }
 
+
 .hbottom{
     color: var(--clara);
     bottom: 0;
@@ -35,8 +36,15 @@
     font-family: 'La Belle Aurore';
     opacity: 0.6;
 }
+
 @media (max-width: 700px) {
     .container {
         margin-left: 0;
+    }
+    .htopo:first-child{
+        margin-top: 70px;
+    }
+    .hbottom:last-child{
+        margin-bottom: 60px;
     }
 }

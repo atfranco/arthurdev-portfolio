@@ -11,7 +11,7 @@ export default function Contato() {
   
     return (
             <div className='tela'>
-            <Celulasgreen />
+
                 <div className='esquerda'>
                     <AnimatedText
                         type="chars" // animate words or chars

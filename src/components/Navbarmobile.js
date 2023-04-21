@@ -50,7 +50,7 @@ export default function Navbarmobile() {
               data-tooltip-delay-hide={300}
               className="tool-home">
               <FontAwesomeIcon className={styles.icones} icon={faHome}/>
-              <Tooltip className='tool-home' anchorSelect=".tool-home" place="right">HOME</Tooltip>            
+              <Tooltip className='tool-home' anchorSelect=".tool-home" place="top">HOME</Tooltip>            
             </Link>
             <Link
               href={{
@@ -60,7 +60,7 @@ export default function Navbarmobile() {
               data-tooltip-delay-hide={300}
               className="tool-user">
               <FontAwesomeIcon className={styles.icones} icon={faUser}/>
-              <Tooltip className='tool-user' anchorSelect=".tool-user" place="right">BREVE RESUMO</Tooltip>            
+              <Tooltip className='tool-user' anchorSelect=".tool-user" place="top">BREVE RESUMO</Tooltip>            
             </Link>
             <Link
               href={{
@@ -70,7 +70,7 @@ export default function Navbarmobile() {
               data-tooltip-delay-hide={300}
               className="tool-skills">
               <FontAwesomeIcon className={styles.icones} icon={faTools}/>
-              <Tooltip className='tool-skills' anchorSelect=".tool-skills" place="right">HABILIDADES</Tooltip>            
+              <Tooltip className='tool-skills' anchorSelect=".tool-skills" place="top">HABILIDADES</Tooltip>            
             </Link>
             <Link
               href={{
@@ -80,7 +80,7 @@ export default function Navbarmobile() {
               data-tooltip-delay-hide={300}
               className="tool-portfolio">
               <FontAwesomeIcon className={styles.icones} icon={faSuitcase}/>
-              <Tooltip className='tool-portfolio' anchorSelect=".tool-portfolio" place="right">PORTFOLIO</Tooltip>            
+              <Tooltip className='tool-portfolio' anchorSelect=".tool-portfolio" place="top">PORTFOLIO</Tooltip>            
             </Link>
             <Link
               href={{
@@ -90,7 +90,7 @@ export default function Navbarmobile() {
               data-tooltip-delay-hide={300}
               className="tool-contato">
               <FontAwesomeIcon className={styles.icones} icon={faEnvelope}/>
-              <Tooltip className='tool-contato' anchorSelect=".tool-contato" place="right">CONTATO</Tooltip>            
+              <Tooltip className='tool-contato' anchorSelect=".tool-contato" place="top">CONTATO</Tooltip>            
             </Link>
             </div>
         </div>        
