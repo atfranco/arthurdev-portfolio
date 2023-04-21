@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as am4core from "@amcharts/amcharts4/core";
-import * as am4plugins_forceDirected from "@amcharts/amcharts4/plugins/forceDirected"; 
+import * as am4plugins_forceDirected from "@amcharts/amcharts4/plugins/forceDirected";
 
 class Graficoforce extends Component {
     componentDidMount() {
