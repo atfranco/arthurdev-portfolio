@@ -1,36 +1,20 @@
 .primeirografico{
-    background: rgba( 255, 255, 255, 0.05 );
-    backdrop-filter: blur( 20px );
-    padding: 20px;
-    border-radius: 10px;
-    z-index: 2;
-    transform:translate(-50px,-50px);
-    transition: 0.5 ease-in-out;
-}
-
-.primeirografico:hover{
-    z-index: 5;
+    margin-bottom: 30px;
 }
 
 .segundografico{
-    background: rgba( 255, 255, 255, 0.05 );
-    backdrop-filter: blur( 20px );
-    padding: 20px;
-    border-radius: 10px;
-    z-index: 3;
-    transform:translate(0px,-50px);
+
 }
+
 .icone{
     width: 90px;
     height: 90px;
 }
 @media (max-width: 700px) {
     .primeirografico{
-        margin: 20px;
-        transform:translate(0px,0px);
+        margin: 30px;
     }       
     .segundografico{
-        margin: 20px;
-        transform:translate(0px,0px);
+        margin: 30px;
     }    
 }
