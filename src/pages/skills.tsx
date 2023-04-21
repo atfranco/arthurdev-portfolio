@@ -1,5 +1,3 @@
-import AnimatedText from 'react-animated-text-content';
-import Botaoglow from '@/components/Botaoglow';
 import dynamic from 'next/dynamic';
 
 const Chartforce = dynamic(() => import('@/components/Chartforce'), {
@@ -14,6 +12,5 @@ export default function Skills() {
             </div>
             <div className='direita'></div>
         </div>
-
     )
 }

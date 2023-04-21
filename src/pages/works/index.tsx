@@ -3,10 +3,7 @@ import Cardportfolio from '@/components/Cardportfolio';
 import Espacador from '@/components/Espacador';
 import Botaoglow from '@/components/Botaoglow';
 import Fundoxadrez from '@/components/Fundoxadrez'
-
-type Data = {
-    name: string;
-};
+import Loader from 'react-loaders'
 
 type Works = {
     id: string;
@@ -15,13 +12,14 @@ type Works = {
     descricao: any;
 };
 
+
 export async function getStaticProps() {
     const data = await fetch('https://arthurdev-portfolio.vercel.app/api/trabalhos')
     const works = await data.json()
     console.log(works)
     return {
         props: { works }
-    }
+    }    
 }
 
 export default function Works({ works }) {
@@ -38,10 +36,10 @@ export default function Works({ works }) {
             </div>
             <div className='direita'>
                 <div className={styles.formata}>
-                    <div className={styles.coluna}>
-                    {works.map((work) => 
-                    (<Cardportfolio key={works.id} work={work} />))}
-                    </div>
+                        <div className={styles.coluna}>
+                        {works.map((work) => 
+                        (<Cardportfolio key={works.id} work={work} />))}
+                        </div>
                 </div>                
             </div>
         </div>

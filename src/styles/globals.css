@@ -124,6 +124,10 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.loadteste{
+  font-size: 200px;
+  position: absolute;
+}
 
 .fundoxadrez {
   width: 100%;
