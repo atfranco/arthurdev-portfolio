@@ -51,4 +51,5 @@
     position: sticky;
     top: 100px;
     margin-top: 180px;
+    z-index: 10;
 }

@@ -2,6 +2,7 @@ import styles from '@/styles/Posts.module.css';
 import Cardportfolio from '@/components/Cardportfolio';
 import Espacador from '@/components/Espacador';
 import Botaoglow from '@/components/Botaoglow';
+import Fundoxadrez from '@/components/Fundoxadrez'
 
 type Data = {
     name: string;
@@ -26,6 +27,7 @@ export async function getStaticProps() {
 export default function Works({ works }) {
     return (
         <>
+        <Fundoxadrez />
         <div className={styles.telaportfolio}>
             <div className={styles.esquerdaportfolio}>
                 <div className={styles.stickycontainer}>

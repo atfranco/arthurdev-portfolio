@@ -11,22 +11,6 @@ export default function Skills() {
         <div className='tela'>
             <Chartforce />
             <div className='esquerda'>
-            <AnimatedText
-            type="chars" // animate words or chars
-            animation={{
-                ease: 'ease-in-out',
-            }}
-            animationType="throw"
-            interval={0.1}
-            duration={1.5}
-            tag="p"
-            className="animado-titulo"
-            includeWhiteSpaces
-            threshold={0.1}
-            rootMargin="50%">
-            Habilidades
-            </AnimatedText>
-            <Botaoglow />
             </div>
             <div className='direita'></div>
         </div>

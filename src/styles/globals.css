@@ -125,6 +125,20 @@ h1 {
   align-items: center;
 }
 
+.fundoxadrez {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+              transparent 50%,
+              rgba(255, 255, 255, 0.2) 50%
+              ),
+              linear-gradient(90deg, var(--fundo) 50%, var(--diminui) 50%);
+  background-size: 4rem 4rem;
+}
+
 /* carrousel node etc */
 [class^="stack-slide"],
 [class*="stack-slide"] {
