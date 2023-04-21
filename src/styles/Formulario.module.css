@@ -8,11 +8,15 @@
     height: 50px;
     transition: 0.4s ease-in-out;
     background: rgba(255, 255, 255, 0.05);
-	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .inputtxt:hover{
     background-color: var(--tom);
+    color: var(--fundo);
+}
+.inputtxt:hover::placeholder{
+    color: var(--fundo);
 }
 .inputtxt::placeholder{
     color: white;
@@ -35,11 +39,15 @@
     font-family: 'Righteous';
     transition: 0.4s ease-in-out;
     background: rgba(255, 255, 255, 0.05);
-	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .inputmsg:hover{
     background-color: var(--tom);
+    color: var(--fundo);
+}
+.inputmsg:hover::placeholder{
+    color: var(--fundo);
 }
 .inputmsg::placeholder{
     color: white;
@@ -68,7 +76,7 @@
 	justify-content: center;
 	align-items: center;
 	background: rgba(255, 255, 255, 0.05);
-	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 	border: 1px solid var(--tom);
 	border-radius: 10px;
 	padding: 10px;

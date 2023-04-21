@@ -42,6 +42,17 @@ body {
   font-family: Righteous;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+  z-index: 100;
+  background-color: var(--fundo);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--fundo) 0%, var(--tom) 50%, var(--fundo) 100%);
+  border-color: var(--tom);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -51,7 +62,6 @@ h1 {
   position: relative;
   text-shadow: 0px 2px 2px var(--fundo);
 }
-
 
 .animado-titulo {
   font-size: 40px;
@@ -251,8 +261,6 @@ h1 {
     transform: rotateY(0deg);
   }
 }
-
-
 .carousel__cell {
   position: absolute;
   width: 240px;
@@ -261,9 +269,7 @@ h1 {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-
 /*slidephoto */
-
 [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
@@ -328,14 +334,15 @@ h1 {
   background-repeat:no-repeat;
   background-position: center center;
   background-size: cover;
-
 }
+
 .thumbnail .keen-slider__slide {
   cursor: pointer;
 }
 .thumbnail .keen-slider__slide.active {
   border: 2px dashed black;
 }
+
 .keen-slider:not([data-keen-slider-disabled]) {
   width: 500px !important;
   overflow: visible !important;
@@ -483,6 +490,9 @@ h1 {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  #nprogress .bar {
+    margin-top: 81px;
   }
 }
 

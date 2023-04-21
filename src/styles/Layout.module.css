@@ -25,7 +25,6 @@
     opacity: 0.6;
 }
 
-
 .hbottom{
     color: var(--clara);
     bottom: 0;
@@ -42,8 +41,12 @@
         margin-left: 0;
     }
     .htopo:first-child{
-        margin-top: 70px;
+        margin-top: 80px;
     }
+    .htopo:last-child{
+        margin-bottom: 80px;
+    }
+
     .hbottom:last-child{
         margin-bottom: 60px;
     }

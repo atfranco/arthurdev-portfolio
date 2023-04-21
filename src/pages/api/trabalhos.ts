@@ -13,15 +13,23 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "imagem":"layoutnova01.png"
       },
       {
-          "id":"02",
+        "id":"02",
+        "nome":"Adda Consultoria",
+        "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        "tipo":"Institucional",
+        "endereco":"https://www.addaconsultoria.com.br",
+        "imagem":"layoutnova01.png"
+    },
+      {
+          "id":"03",
           "nome":"Portal Marquesi",
           "descricao":"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable",
           "tipo":"Saas",
-          "endereco":"https://marquesi.com.br",
+          "endereco":"https://portal.marquesi.com.br/.marquesi.com.br",
           "imagem":"marquesi01.png"
       },
       {
-          "id":"03",
+          "id":"04",
           "nome":"PlanoACCD",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Institucional",
@@ -29,15 +37,15 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "imagem":"planoa01.png"
       },
       {
-          "id":"04",
+          "id":"05",
           "nome":"Loma Advocacia",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Institucional",
-          "endereco":"https://loma.com.br",
+          "endereco":"https://reckon.lomaconsultoria.com/",
           "imagem":"loma01.png"
       },
       {
-          "id":"05",
+          "id":"06",
           "nome":"Fmmlr Shop",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Ecommerce",
@@ -45,7 +53,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "imagem":"fmmlr01.png"
       },
       {
-          "id":"06",
+          "id":"07",
           "nome":"GrowZero011",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Ecommerce",
@@ -53,35 +61,35 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
           "imagem":"grow01.png"
       },
       {
-          "id":"07",
+          "id":"08",
           "nome":"Aromaterapia",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Institucional",
-          "endereco":"https://planoaccd.com.br",
+          "endereco":"http://aromaterapiabemestar.com.br/",
           "imagem":"aroma01.png"
       },
       {
-          "id":"08",
+          "id":"09",
           "nome":"Cais Shop",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Ecommerce",
-          "endereco":"https://planoaccd.com.br",
+          "endereco":"https://caishop.com",
           "imagem":"cais01.png"
       },
       {
-          "id":"09",
+          "id":"10",
           "nome":"Alphaboulder",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Ecommerce",
-          "endereco":"https://planoaccd.com.br",
+          "endereco":"https://www.alphaboulder.com.br",
           "imagem":"screen-alphaboulder.jpg"
       },
       {
-          "id":"10",
+          "id":"11",
           "nome":"Ekopuffs",
           "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
           "tipo":"Ecommerce",
-          "endereco":"https://planoaccd.com.br",
+          "endereco":"https://www.ekopuffs.com.br",
           "imagem":"ekopuffs-screen.jpg"
       }
   ]);
