@@ -1,6 +1,7 @@
 import Terrain from '../../node_modules/vanta/src/vanta.topology'
 import { useEffect, useRef, useState } from "react";
 import styles from '../styles/Celulas.module.css'
+import * as THREE from 'three';
 
 export default function Topografia() {
   const [vantaEffect, setVantaEffect] = useState(0);
