@@ -42,23 +42,31 @@ export default function Cardportfolio({ work }) {
                 </div>
                 <div className={styles.card}>
                     <div className={styles.divideesq}>
-                        <h2>{work.nome}</h2>
-                        <Espacador />
-                        <h3>{work.descricao}</h3>
-                    </div>
-                    <div className={styles.dividedir}>
-                        <h4>{work.tipo}</h4>
-                        <Espacador />
-                        <Link
-                        href={`${work.endereco}`}
-                        target={'_blank'}>  
-                        <FontAwesomeIcon className={styles.icone} icon={faLink}/>
-                        </Link>
-                    </div>
+                        <div className={styles.logoetitulo}>                   
+                            <Image
+                            src={`/imagens/portfolio/logos/${work.logo}`}
+                            width={60}
+                            height={30}
+                            alt={work.nome}
+                            className={styles.logothumb}
+                            />
+                            <h2>{work.nome}</h2>
+                        </div>
+                    <Espacador />
+                    <h3>{work.descricao}</h3>
+                </div>
+                <div className={styles.dividedir}>
+                    <h4>{work.tipo}</h4>
+                    <Espacador />
+                    <Link
+                    href={`${work.endereco}`}
+                    target={'_blank'}>  
+                    <FontAwesomeIcon className={styles.icone} icon={faLink}/>
+                    </Link>
                 </div>
             </div>
         </div>
-        </div>
-        
-    )
+    </div>
+</div>
+)
 }

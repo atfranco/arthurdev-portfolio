@@ -6,24 +6,24 @@
     gap: 10px;
     justify-content: space-between;
     transition: 0.3s ease-in-out;
-    background: var(--tom);
-    backdrop-filter: blur( 4px );
+    backdrop-filter: blur( 10px );
     width: 100%;
 }
-.lbox{
-
+.logothumb{
+    border-radius: 5px;
 }
-.lboxfora{
-
+.logoetitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 .card h2{
-    font-size: 16px;
-    font-family: 'Righteous';
-    text-transform: uppercase;
-    letter-spacing: -0.5px;
-    font-weight: 300;
-    color: var(--fundo);
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: var(--cor);
 }
 
 .card h3{
@@ -36,17 +36,17 @@
     font-size: 12px;
     font-family: 'Righteous';
     text-transform: uppercase;
-    color: var(--fundo);
+    color: var(--tom);
     font-weight: 300;
 }
 .icone{
-    color: var(--clara);
-    height: 20px;
+    color: var(--tom);
+    height: 25px;
     transition: 0.3s ease-in-out;
+    cursor: crosshair;
 }
 .icone:hover{
-    color: var(--fundo);
-    height: 25px;
+    color: white;
 }
 
 .divideesq {
@@ -55,6 +55,9 @@
 
 .dividedir {
     text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .gridscreen{
