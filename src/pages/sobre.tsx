@@ -40,8 +40,7 @@ export default function Sobre() {
           renderMode: "custom",
           mode: "free-snap",
         },
-        [carousel]
-      )
+        [carousel])
 
     return(
         <div className='tela'>

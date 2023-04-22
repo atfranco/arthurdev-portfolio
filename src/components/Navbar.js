@@ -98,9 +98,21 @@ export default function Navbar() {
             </Link>
             </div>
             <div className={styles.socialmenu}>
+                <a
+                href='https://www.linkedin.com/in/arthur-franco-dev'
+                target="_blank">
                 <FontAwesomeIcon className={styles.icones} icon={faLinkedin}/>
+                </a>
+                <a
+                href='https://www.instagram.com/tutaoo'
+                target="_blank">
                 <FontAwesomeIcon className={styles.icones} icon={faInstagram}/>
+                </a>
+                <a
+                href='https://github.com/atfranco'
+                target="_blank">
                 <FontAwesomeIcon className={styles.icones} icon={faGithub}/>
+                </a>
             </div>
         </div>        
     )
