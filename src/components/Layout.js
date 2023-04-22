@@ -1,10 +1,12 @@
 import Navbar from './Navbar'
 import Navbarmobile from '@/components/Navbarmobile'
 import styles from '../styles/Layout.module.css'
+import Topografia from '@/components/Topografia'
 
 export default function Layout({children}) {
     return (
         <>
+        <Topografia />
             <Navbar />
             <div className={styles.container}>
                 <p className={styles.htopo}>&lt;html&gt;</p>

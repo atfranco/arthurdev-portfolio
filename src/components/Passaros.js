@@ -10,8 +10,8 @@ export default function Passaros() {
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
-          el: vantaRef.current, 
-          THREE,         
+          THREE,   
+          el: vantaRef.current,      
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
@@ -27,7 +27,7 @@ export default function Passaros() {
           backgroundAlpha: 0.00,
           color1: 0x1DAEF3,
           color2: 0x1DAEF3,
-          colorMode: "lerp"
+          colorMode: "lerp",
         })
       );
     }

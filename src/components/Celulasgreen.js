@@ -1,4 +1,4 @@
-import CELLS from '../../node_modules/vanta/src/vanta.cells'
+import CELLS from '../../node_modules/vanta/src/vanta.cells';
 import { useEffect, useRef, useState } from "react";
 import styles from '../styles/Celulas.module.css';
 import * as THREE from 'three';
@@ -21,7 +21,7 @@ export default function Celulasgreen() {
           color1: 0x00ff62,
           color2: 0x0a5226,
           size: 3,
-          speed: 2
+          speed: 2,
         })
       );
     }

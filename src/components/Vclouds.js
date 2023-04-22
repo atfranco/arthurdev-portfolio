@@ -1,24 +1,22 @@
-import Terrain from '../../node_modules/vanta/src/vanta.topology'
+import CLOUDS from 'vanta/src/vanta.clouds';
 import { useEffect, useRef, useState } from "react";
-import styles from '../styles/Celulas.module.css'
-import * as THREE from 'three';
+import styles from '../styles/Celulas.module.css';
+import THREE from 'three';
 
-export default function Topografia() {
+export default function Vclouds() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        Terrain({
-          el: vantaRef.current,
+        CLOUDS({
           THREE,
+          el: vantaRef.current,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 100.00,
-          minWidth: 100.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
+          minHeight: 200.00,
+          minWidth: 200.00
         })
       );
     }

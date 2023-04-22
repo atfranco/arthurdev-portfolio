@@ -1,6 +1,7 @@
 import CELLS from '../../node_modules/vanta/src/vanta.cells'
 import { useEffect, useRef, useState } from "react";
-import styles from '../styles/Celulas.module.css'
+import styles from '../styles/Celulas.module.css';
+import * as THREE from 'three';
 
 export default function Celulas() {
   const [vantaEffect, setVantaEffect] = useState(0);

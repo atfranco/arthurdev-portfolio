@@ -1,7 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
 import AnimatedText from '../../node_modules/react-animated-text-content';
-import Passaros from '@/components/Passaros';
 import Botaoglow from '@/components/Botaoglow'
 import Espacador from '@/components/Espacador';
 
@@ -16,7 +14,6 @@ export default function Home() {
       </Head>
       <div className='tela'>
         <div className='esquerda'>
-          <Passaros />
           <AnimatedText
             type="chars" // animate words or chars
             animation={{
