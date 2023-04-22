@@ -63,6 +63,7 @@ h1 {
   text-shadow: 0px 2px 2px var(--fundo);
 }
 
+
 .animado-titulo {
   font-size: 40px;
   font-weight: 600;
@@ -89,7 +90,7 @@ h1 {
 
 }
 .animaportfolio:hover{
-  scale: 0.95;  
+  scale: 0.98;    
 }
 
 .texto {
@@ -164,10 +165,7 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  background: linear-gradient(
-              transparent 50%,
-              rgba(255, 255, 255, 0.2) 50%
-              ),
+  background: linear-gradient(transparent 50%, rgba(255, 255, 255, 0.2) 50%),
               linear-gradient(90deg, var(--fundo) 50%, var(--diminui) 50%);
   background-size: 4rem 4rem;
 }

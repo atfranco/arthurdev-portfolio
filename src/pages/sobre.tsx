@@ -79,37 +79,13 @@ export default function Sobre() {
             </AnimatedText>
             <Espacador />
             <Espacador />
-            <AnimatedText
-                    type="chars" // animate words or chars
-                    animation={{
-                        ease: 'ease-in-out',
-                    }}
-                    animationType="bounce"
-                    interval={0.01}
-                    duration={3}
-                    tag="p"
-                    className="animado-texto"
-                    includeWhiteSpaces
-                    threshold={0.1}
-                    rootMargin="50%">
-                    Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.
-            </AnimatedText>
-            <AnimatedText
-                    type="chars" // animate words or chars
-                    animation={{
-                        ease: 'ease-in-out',
-                    }}
-                    animationType="bounce"
-                    interval={0.02}
-                    duration={4}
-                    tag="p"
-                    className="animado-texto"
-                    includeWhiteSpaces
-                    threshold={0.1}
-                    rootMargin="50%">
-                    Me especializando em Javascript e banco de dados para atingir FullStack em MERN:
-                    "MongoDB + Express + React + Node.JS"
-            </AnimatedText>
+            <p className='animado-texto'>
+            Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.
+            </p>
+            <Espacador />
+            <p className='animado-texto'>          
+            No momento me especializando em Javascript e banco de dados para atingir FullStack em MERN: "MongoDB + Express + React + Node.JS"
+            </p>
             <Espacador />
             <div className="wrappercarousel">
               <div className="scenecarousel">
