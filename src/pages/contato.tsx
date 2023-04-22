@@ -1,5 +1,4 @@
 import AnimatedText from 'react-animated-text-content';
-import Celulasgreen from '@/components/Celulasgreen';
 import Espacador from '@/components/Espacador';
 import styles from '@/styles/Contato.module.css';
 import { Formulario } from '@/components/Formulario'
