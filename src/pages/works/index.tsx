@@ -33,11 +33,10 @@ export default function Works({ works }) {
             </div>
             <div className='direita'>
                 <div className={styles.formata}>
-                        <div
-                        className={styles.coluna}>
-                            {works.map((work) => 
-                            (<Cardportfolio key={works.id} work={work} />))}
-                        </div>
+                    <div
+                    className={styles.coluna}>
+                    {works.map((work: any) => (<Cardportfolio key={works.id} work={work} />))}
+                    </div>
                 </div>                
             </div>
         </div>
