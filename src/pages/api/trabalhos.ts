@@ -52,7 +52,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
     {
         "id":"06",
         "nome":"Fmmlr Shop",
-        "descricao":"Ecommerce criado para venda dos produtos da marca",
+        "descricao":"Ecommerce criado para venda dos produtos da marca, conta com ERP Bling na administração, notas fiscais e anuncio de produtos em Marketplaces ",
         "tipo":"Ecommerce",
         "endereco":"https://fmmlr.com",
         "imagem":"fmmlr01.png",
@@ -70,7 +70,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
     {
         "id":"08",
         "nome":"Aromaterapia",
-        "descricao":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+        "descricao":"Infoproduto destinado a Aromaterapia e bem estar, focando em uma comunicação direta com gatilhos de venda",
         "tipo":"Institucional",
         "endereco":"http://aromaterapiabemestar.com.br/",
         "imagem":"aroma01.png",
