@@ -11,7 +11,7 @@ const data = {
   labels: ['3D', 'Ecommerces', 'Marketing/SEO', 'Engenharia Civil', 'Design/Imagens', 'WEB'],
   datasets: [{
     label: 'Anos de Experiencia',
-    data: [3, 4, 4, 6, 11, 15],
+    data: [2, 4, 4, 6, 11, 14],
     backgroundColor: [
       'rgba(152, 255, 0, 0.92)',
       'rgba(152, 255, 0, 0.92)',

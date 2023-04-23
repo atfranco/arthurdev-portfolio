@@ -19,7 +19,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
         "descricao":"Site criado para demonstrar os trabalhos, a equipe e expertise dos seus Geólogos",
         "tipo":"Institucional",
         "endereco":"https://www.addaconsultoria.com.br",
-        "imagem":"layoutnova01.png",
+        "imagem":"adda01.png",
         "logo": "logo-adda.png",
     },
     {

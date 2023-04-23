@@ -35,7 +35,8 @@ export default function Cardportfolio({ work }) {
                 <div className={styles.fora}>              
                 <Image
                 src={`/imagens/portfolio/${work.imagem}`}
-                layout="fill"
+                fill position={'relative'}
+                object fit={'contain'}
                 alt={work.nome}
                 onClick={() => setToggler(!toggler)}
                 className={styles.foto}/>   

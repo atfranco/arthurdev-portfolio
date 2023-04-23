@@ -1,6 +1,7 @@
 import styles from '@/styles/Navbar.module.css'
 import "react-tooltip/dist/react-tooltip.css";
 import Link from 'next/link';
+import Logotipo from '@/components/Logotipo'
 import { Tooltip as ReactTooltip, Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

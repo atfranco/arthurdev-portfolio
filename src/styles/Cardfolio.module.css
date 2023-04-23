@@ -21,14 +21,13 @@
 }
 
 .card h2{
-    font-size: 12px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: var(--cor);
+    font-size: 14px;
+    font-family: 'Righteous';
+    font-weight: 200;
 }
 
 .card h3{
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
 }
