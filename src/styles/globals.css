@@ -63,6 +63,16 @@ h1 {
   text-shadow: 0px 2px 2px var(--fundo);
 }
 
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.comlink:hover {
+  color: var(--tom);
+}
+
 
 .animado-titulo {
   font-size: 40px;
@@ -227,7 +237,7 @@ h1 {
   height: 200px;
   perspective: 1000px;
   position: relative;
-  transform: scale(0.4);
+  transform: scale(0.6);
 }
 .scenecarousel .carousel.keen-sliderr {
   width: 100%;
@@ -236,7 +246,6 @@ h1 {
   position: absolute;
   transform: translateZ(-288px);
   transform-style: preserve-3d;
-  animation: rotacionacarro 40s ease-in-out infinite;
 }
 
 .carousel__cell {
@@ -248,17 +257,6 @@ h1 {
   transform-style: preserve-3d;
 }
 
-@keyframes rotacionacarro {
-  0% {
-    transform: rotateY(0deg);
-  }
-  50%{
-    transform: rotateY(360deg);
-  }
-  100% {
-    transform: rotateY(0deg);
-  }
-}
 .carousel__cell {
   position: absolute;
   width: 240px;

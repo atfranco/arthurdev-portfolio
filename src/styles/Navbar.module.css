@@ -69,14 +69,18 @@
 
 @media (max-width: 700px) {
   .navbar {
+    color: var(--tom);
     position: fixed;
     width: 100%;
     height: 80px;
     padding-top: 0px;
     padding-bottom: 0px;
+    background: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 10px );
   }
   .navbar:hover {
     width: 100%;
+    backdrop-filter: blur( 10px );
   }
   .iconesmenu {
     display: none;
@@ -91,10 +95,25 @@
     width: 100%;
     height: 60px;
     justify-content: space-around;
-    background-color: var(--tom);
+    background: linear-gradient(180deg, var(--tom) 20%, var(--fundomid) 80%);
     position: fixed;
     bottom: 0;
     align-items: center;
     box-shadow: var(--clara) 0px 0px 0px 2px, var(--tom) 0px 0px 0px 2px;
+    backdrop-filter: blur( 10px );
+  }
+  .iconesmenumobile {
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background: linear-gradient(180deg, var(--tom) 20%, var(--fundomid) 80%);
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    box-shadow: var(--clara) 0px 0px 0px 2px, var(--tom) 0px 0px 0px 2px;
+    backdrop-filter: blur( 10px );
   }
 }

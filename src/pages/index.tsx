@@ -27,7 +27,7 @@ export default function Home() {
             includeWhiteSpaces
             threshold={0.1}
             rootMargin="50%">
-            &#123;Arthur.Franco&#125;
+            &#123;arthur.franco&#125;
           </AnimatedText>
           <Espacador />
           <AnimatedText

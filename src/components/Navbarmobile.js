@@ -40,7 +40,6 @@ const usaHome = () => {
 
 export default function Navbarmobile() {
     return (   
-        <div className={styles.navbarmobile}>
             <div className={styles.iconesmenumobile}>
             <Link
               href={{
@@ -92,8 +91,7 @@ export default function Navbarmobile() {
               <FontAwesomeIcon className={styles.icones} icon={faEnvelope}/>
               <Tooltip className='tool-contato' anchorSelect=".tool-contato" place="top">CONTATO</Tooltip>            
             </Link>
-            </div>
-        </div>        
+            </div>    
     )
   }
   

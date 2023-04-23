@@ -8,6 +8,13 @@
     border-radius: 5px;
 }
 
+.icones {
+    width: var(--sizeicone);
+    height: var(--sizeicone);
+    margin: 5px;
+    cursor: pointer;
+}
+
 .some {
     display: none;
 }

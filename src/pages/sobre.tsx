@@ -79,10 +79,7 @@ export default function Sobre() {
             <Espacador />
             <Espacador />
             <p className='animado-texto'>
-            Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.
-            </p>
-            <Espacador />
-            <p className='animado-texto'>          
+            Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.<br />
             No momento me especializando em Javascript e banco de dados para atingir FullStack em MERN: "MongoDB + Express + React + Node.JS"
             </p>
             <Espacador />
