@@ -64,7 +64,7 @@ export default function Contato() {
                     <Espacador />
                 </div>
                 <div className='direita'>
-                    <Map className={styles.homeMap} width="800" height="400" center={LOCALIZACAO} zoom={12}>
+                    <Map className={styles.homeMap} width="800" height="400" center={LOCALIZACAO} zoom={10}>
                 {({ TileLayer, Marker, Popup }) => (
                 <>
                         <TileLayer 

@@ -6,8 +6,7 @@ import Topografia from '@/components/Topografia'
 export default function Layout({children}) {
     return (
         <>
-        <Topografia />
-            <Navbar />
+        <Navbar />
             <div className={styles.container}>
                 <p className={styles.htopo}>&lt;html&gt;</p>
                 <p className={styles.htopo}>&lt;body&gt;</p>
@@ -15,7 +14,8 @@ export default function Layout({children}) {
                 <p className={styles.hbottom}>&lt;/body&gt;</p>
                 <p className={styles.hbottom}>&lt;/html&gt;</p>
             </div>
-            <Navbarmobile />
+        <Navbarmobile />
+        <Topografia />
         </>
     )
 }

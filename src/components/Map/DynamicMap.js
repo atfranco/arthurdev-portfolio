@@ -3,7 +3,6 @@ import Leaflet from 'leaflet';
 import * as ReactLeaflet from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
-
 const { MapContainer } = ReactLeaflet;
 
 const Map = ({ children, className, width, height, ...rest }) => {

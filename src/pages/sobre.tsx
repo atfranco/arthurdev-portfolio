@@ -81,7 +81,7 @@ export default function Sobre() {
             <Espacador />
             <p className='animado-texto'>A união entre design e engenharia é essencial para a criação de produtos bem-sucedidos e atraentes aonde razão e intuição caminhem juntos<br/></p>
             <Espacador />
-            <p className='animado-texto'>Busco a fusão de aplicações modernas de alto desempenho aliado aos conceitos de Design e User Experience UI/UX</p>
+            <p className='animado-texto'>Busco oferecer aos meus clientes a fusão de aplicações modernas de alto desempenho aliado aos conceitos de Design e User Experience UI/UX</p>
             <Espacador />
             <p className='animado-texto'>Mais de 10 anos de experiência na criação de Sites, Ecommerces e Sistemas, amplo dominio em Html, CSS, Wordpress/woocommerce e edição de imagens/pacote Adobe</p>
             <Espacador />
