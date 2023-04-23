@@ -4,17 +4,12 @@ import Link from 'next/link';
 import { Tooltip as ReactTooltip, Tooltip } from "react-tooltip";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faLinkedin,
-    faGithub,
-    faInstagram,
-  } from '@fortawesome/free-brands-svg-icons'
-  import {
-    faHome,
-    faUser,
-    faTools,
-    faEnvelope,
-    faSuitcase,
-  } from '@fortawesome/free-solid-svg-icons'
+  faHome,
+  faUser,
+  faTools,
+  faEnvelope,
+  faSuitcase,
+} from '@fortawesome/free-solid-svg-icons'
 
   // funcoes q chamarao as cores add no bt
 const usaHome = () => {

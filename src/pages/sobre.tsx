@@ -14,6 +14,7 @@ import {
   faNode,
   faWordpress,
   faFigma,
+  faSass
 } from '@fortawesome/free-brands-svg-icons'
 
 const carousel: KeenSliderPlugin = (slider) => {
@@ -78,20 +79,23 @@ export default function Sobre() {
             </AnimatedText>
             <Espacador />
             <Espacador />
-            <p className='animado-texto'>
-            Mais de 10 anos de experiência na criação de Sites, Ecommerce, Wordpress, dominio em Html, CSS e edição de imagens/pacote Adobe.<br />
-            No momento me especializando em Javascript e banco de dados para atingir FullStack em MERN: "MongoDB + Express + React + Node.JS"
-            </p>
+            <p className='animado-texto'>A união entre design e engenharia é essencial para a criação de produtos bem-sucedidos e atraentes aonde razão e intuição caminhem juntos<br/></p>
+            <Espacador />
+            <p className='animado-texto'>Busco a fusão de aplicações modernas de alto desempenho aliado aos conceitos de Design e User Experience UI/UX</p>
+            <Espacador />
+            <p className='animado-texto'>Mais de 10 anos de experiência na criação de Sites, Ecommerces e Sistemas, amplo dominio em Html, CSS, Wordpress/woocommerce e edição de imagens/pacote Adobe</p>
+            <Espacador />
+            <p className='animado-texto'>No momento me especializando e interessado em desenvolver aplicações de alto desempenho como <strong>Headless Wordpress e MERN STACK: MongoDB + Express + React + Node.JS</strong></p>
             <Espacador />
             <div className="wrappercarousel">
               <div className="scenecarousel">
                   <div className="carousel keen-sliderr" ref={sliderRef}>
-                    <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>React</p></div>
-                    <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faNodeJs} color="#fff" /><p>Nodejs</p></div>
-                    <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>Wordpress</p></div>
-                    <div className="carousel__cell stack-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>Node</p></div>
+                    <div className="carousel__cell stack-slide1"><FontAwesomeIcon className={styles.icone} icon={faReact} color="#fff" /><p>REACT</p></div>
+                    <div className="carousel__cell stack-slide2"><FontAwesomeIcon className={styles.icone} icon={faSass} color="#fff" /><p>SASS</p></div>
+                    <div className="carousel__cell stack-slide3"><FontAwesomeIcon className={styles.icone} icon={faWordpress} color="#fff" /><p>WORDPRESS</p></div>
+                    <div className="carousel__cell stack-slide4"><FontAwesomeIcon className={styles.icone} icon={faNode} color="#fff" /><p>NODE.js</p></div>
                     <div className="carousel__cell stack-slide5"><FontAwesomeIcon className={styles.icone} icon={faFigma} color="#fff" /><p>FIGMA</p></div>
-                    <div className="carousel__cell stack-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>Git</p></div>
+                    <div className="carousel__cell stack-slide6"><FontAwesomeIcon className={styles.icone} icon={faGitAlt} color="#fff"/><p>GIT</p></div>
                   </div>
               </div>
             </div>
