@@ -37,7 +37,9 @@ export default function Works({ works }) {
                     className={styles.coluna}>
                     {works.map((work: any) => (<Cardportfolio key={works.id} work={work} />))}
                     </div>
-                </div>                
+                </div>   
+                <Espacador />
+                <Espacador />             
             </div>
         </div>
         </>

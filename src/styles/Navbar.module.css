@@ -77,11 +77,15 @@
     padding-bottom: 0px;
     background: rgba( 255, 255, 255, 0.05 );
     backdrop-filter: blur( 10px );
+    justify-content: center;
   }
   .navbar:hover {
     width: 100%;
     backdrop-filter: blur( 10px );
   }
+  .logomenu h2 {
+    display: none;
+}
   .iconesmenu {
     display: none;
   }
