@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGitAlt,
   faReact,
-  faNodeJs,
   faNode,
   faWordpress,
   faFigma,

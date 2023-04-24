@@ -4,11 +4,8 @@ import styles from '@/styles/Contato.module.css';
 import { Formulario } from '@/components/Formulario';
 import Map from '@/components/Map';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faLocationDot,
-    faPhone,
-    faEnvelope,
-  } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const LOCALIZACAO = [-23.5400208, -46.6753272]
 
@@ -16,7 +13,6 @@ export default function Contato() {
   
     return (
             <div className='tela'>
-
                 <div className='esquerda'>
                     <AnimatedText
                         type="chars" // animate words or chars
@@ -55,7 +51,7 @@ export default function Contato() {
                     <div>
                         <ul>
                             <li><FontAwesomeIcon className={styles.icones} icon={faLocationDot}/><p className='animado-texto'>Perdizes - São Paulo</p></li>
-                            <li><FontAwesomeIcon className={styles.icones} icon={faPhone}/><p className='animado-texto'>+55 11 97565-3159</p></li>
+                            <li><FontAwesomeIcon className={styles.icones} icon={faWhatsapp}/><p className='animado-texto'>+55 11 97565-3159</p></li>
                             <li className='comlink'><FontAwesomeIcon className={styles.icones} icon={faEnvelope}/><p className='animado-texto'>contato@arthurdev.tech</p></li>
                         </ul>
                     </div>
@@ -65,21 +61,17 @@ export default function Contato() {
                 </div>
                 <div className='direita'>
                     <Map className={styles.homeMap} width="800" height="400" center={LOCALIZACAO} zoom={10}>
-                {({ TileLayer, Marker, Popup }) => (
+                {({ TileLayer, Marker }) => (
                 <>
                         <TileLayer 
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                         />
-                        <Marker position={LOCALIZACAO}>
-                        <Popup>
-                            A pretty CSS3 popup. <br /> Easily customizable.
-                        </Popup>
-                        </Marker>
+                        <Marker position={LOCALIZACAO}/>
                         </>
                         )}
                     </Map>                         
-            </div>
-        </div>       
+                </div>
+            </div>       
     )
 }
