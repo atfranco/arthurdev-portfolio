@@ -453,6 +453,11 @@
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.10.tgz#6dfbf5ea17142f7f9a043809f1cd4c448cb68249"
   integrity sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==
 
+"@types/google-publisher-tag@^1.20230410.0":
+  version "1.20230410.0"
+  resolved "https://registry.yarnpkg.com/@types/google-publisher-tag/-/google-publisher-tag-1.20230410.0.tgz#f6b866f3710c46b729b3f7cfb60f3975a2ecf4a4"
+  integrity sha512-H2oBE/QXFzxP7iLJq+ohEb5yflIwhIfc6E4F4AkMpiCYfvKFZkQaH2VoBs/Jf8QdthT7ZkHYTzNiRoI2ch0D1Q==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44"
