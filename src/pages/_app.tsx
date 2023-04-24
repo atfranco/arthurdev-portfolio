@@ -16,3 +16,6 @@ export default function App({ Component, pageProps }: AppProps) {
          <Component {...pageProps} />
          </Layout>
 }
+export const metadata = {
+  title: '...',
+};
