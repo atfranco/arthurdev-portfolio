@@ -62,19 +62,19 @@ export default function Sobre() {
             </AnimatedText>
             <Espacador />
             <AnimatedText
-              type="words" // animate words or chars
-              animation={{
-                ease: 'ease-in-out',
-              }}
-              animationType="bounce"
-              interval={0.2}
-              duration={1}
-              tag="p"
-              className="animado-subtitulo"
-              includeWhiteSpaces
-              threshold={0.1}
-              rootMargin="50%">
-              Desenvolvedor Front End / Especialista em Wordpress / Designer Gráfico
+            type="words" // animate words or chars
+            animation={{
+              ease: 'ease-in-out',
+            }}
+            animationType="bounce"
+            interval={0.1}
+            duration={1}
+            tag="p"
+            className="animado-subtitulo"
+            includeWhiteSpaces
+            threshold={0.1}
+            rootMargin="50%">
+            Desenvolvedor Front End + Especialista em Wordpress + Designer Gráfico
             </AnimatedText>
             <Espacador />
             <Espacador />
