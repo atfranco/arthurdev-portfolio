@@ -7,11 +7,15 @@ export const Formulario = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_v51ya2p', 'template_gg36l77', form.current, 'IaRimagU5q9rZIZb5')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    .then(
+      () => {
+        alert('Mensagem enviada com sucesso, obrigado, retornarei em breve!')
+        window.location.reload(false)
+      },
+      () => {
+        alert('Falha ao enviar a mensagen, tente denovo por favor')
+      }
+    )
   };
   
   return (
