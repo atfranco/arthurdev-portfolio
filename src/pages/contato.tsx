@@ -46,7 +46,6 @@ export default function Contato() {
                         Vamos fazer sua empresa crescer?
                     </AnimatedText>
                     <Espacador />
-                    <p className='animado-texto'>Pronto para atender empresas e profissionais liberais que busquem inclusão digital, automação e tecnologia de ponta.</p>
                     <Espacador />
                     <div>
                         <ul>
