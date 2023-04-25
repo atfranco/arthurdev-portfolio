@@ -458,6 +458,11 @@
   resolved "https://registry.yarnpkg.com/@types/google-publisher-tag/-/google-publisher-tag-1.20230410.0.tgz#f6b866f3710c46b729b3f7cfb60f3975a2ecf4a4"
   integrity sha512-H2oBE/QXFzxP7iLJq+ohEb5yflIwhIfc6E4F4AkMpiCYfvKFZkQaH2VoBs/Jf8QdthT7ZkHYTzNiRoI2ch0D1Q==
 
+"@types/gtag.js@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.12.tgz#095122edca896689bdfcdd73b057e23064d23572"
+  integrity sha512-YQV9bUsemkzG81Ea295/nF/5GijnD2Af7QhEofh7xu+kvCN6RdodgNwwGWXB5GMI3NoyvQo0odNctoH/qLMIpg==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44"

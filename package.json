@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/google-publisher-tag": "^1.20230410.0",
+    "@types/gtag.js": "^0.0.12",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-chartjs-2": "^2.5.7",
