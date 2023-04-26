@@ -79,7 +79,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
     {
         "id":"09",
         "nome":"Aromaterapia",
-        "descricao":"Pagina com foco em infoproduto destinado a Aromaterapia e bem estar, focando em uma comunicação direta com gatilhos de venda",
+        "descricao":"Infoproduto destinado a Aromaterapia e bem estar, focando em uma comunicação direta com gatilhos de venda",
         "tipo":"Infoproduto",
         "endereco":"http://aromaterapiabemestar.com.br/",
         "imagem":"aroma01.png",
