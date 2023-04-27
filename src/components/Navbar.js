@@ -32,7 +32,7 @@ const usaHome = () => {
   };
   const usaPortfolio = () => {
     const root = document.documentElement;
-    root.style.setProperty('--hue-color', '10');
+    root.style.setProperty('--hue-color', '50');
   };
   const usaContato = () => {
     const root = document.documentElement;
