@@ -51,7 +51,9 @@ export default function Contato() {
                         <ul>
                             <li><FontAwesomeIcon className={styles.icones} icon={faLocationDot}/><p className='animado-texto'>Perdizes - São Paulo</p></li>
                             <li><FontAwesomeIcon className={styles.icones} icon={faWhatsapp}/><p className='animado-texto'>+55 11 97565-3159</p></li>
+                            <a href='mailto:contato@arthurdev.tech'>
                             <li className='comlink'><FontAwesomeIcon className={styles.icones} icon={faEnvelope}/><p className='animado-texto'>contato@arthurdev.tech</p></li>
+                            </a>
                         </ul>
                     </div>
                     <Espacador />
@@ -59,7 +61,7 @@ export default function Contato() {
                     <Espacador />
                 </div>
                 <div className='direita'>
-                    <Map className={styles.homeMap} width="800" height="400" center={LOCALIZACAO} zoom={10}>
+                    <Map className={styles.homeMap} width="800" height="400" center={LOCALIZACAO} zoom={6}>
                 {({ TileLayer, Marker }) => (
                 <>
                         <TileLayer 

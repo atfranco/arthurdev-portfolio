@@ -1,51 +1,65 @@
 .card {
     display: flex;
-    padding: 15px;
+    padding: 20px;
     width: 100%;
     border-radius: 0px 0px 10px 10px;
-    gap: 10px;
+    gap: 12px;
     justify-content: space-between;
     transition: 0.3s ease-in-out;
     backdrop-filter: blur( 10px );
     width: 100%;
-    border-top: 1px solid var(--tom)
+    border-top: 1px solid var(--tom);
 }
-.logothumb{
+
+.oddeven {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--fundo);
+
+}
+
+.oddeven:nth-child(even) {
+    background-color: var(--diminui);
+}
+
+.logothumb {
     border-radius: 5px;
 }
-.logoetitulo{
+
+.logoetitulo {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 
-.card h2{
+.card h2 {
     font-size: 14px;
     font-family: 'Righteous';
     font-weight: 200;
 }
 
-.card h3{
+.card h3 {
     font-size: 13px;
     font-family: 'Open Sans';
     font-weight: 400;
 }
 
-.card h4{
+.card h4 {
     font-size: 12px;
     font-family: 'Righteous';
     text-transform: uppercase;
     color: var(--tom);
     font-weight: 300;
 }
-.icone{
+
+.icone {
     color: var(--tom);
     height: 25px;
     transition: 0.3s ease-in-out;
     cursor: crosshair;
 }
-.icone:hover{
+.icone:hover {
     color: white;
 }
 
@@ -60,13 +74,13 @@
     justify-content: space-around;
 }
 
-.gridscreen{
+.gridscreen {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.fora{
+.fora {
     width: 100%;
     aspect-ratio: 2;
     position: relative;
