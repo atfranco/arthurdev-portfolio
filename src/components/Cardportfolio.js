@@ -15,6 +15,7 @@ export default function Cardportfolio({ work }) {
 
     return (   
         <li className={styles.oddeven}>
+            <div className={styles.enquadra}>
             <FsLightbox
 			toggler={toggler}
             loadOnlyCurrentSource={true}
@@ -34,22 +35,23 @@ export default function Cardportfolio({ work }) {
                 <div className={styles.portfoliocomponente}>
                     <div className={styles.fora}>              
                     <Image
-                    src={`/imagens/portfolio/${work.imagem}`}
-                    fill position={'relative'}
-                    object fit={'contain'}
-                    alt={work.nome}
-                    onClick={() => setToggler(!toggler)}
-                    className={styles.foto}/>   
+                        src={`/imagens/portfolio/${work.imagem}`}
+                        fill position={'relative'}
+                        object fit={'contain'}
+                        alt={work.nome}
+                        onClick={() => setToggler(!toggler)}
+                        className={styles.foto}
+                    />   
                     </div>
                     <div className={styles.card}>
                         <div className={styles.divideesq}>
                             <div className={styles.logoetitulo}>                   
                                 <Image
-                                src={`/imagens/portfolio/logos/${work.logo}`}
-                                width={60}
-                                height={30}
-                                alt={work.nome}
-                                className={styles.logothumb}
+                                    src={`/imagens/portfolio/logos/${work.logo}`}
+                                    width={60}
+                                    height={30}
+                                    alt={work.nome}
+                                    className={styles.logothumb}
                                 />
                                 <h2>{work.nome}</h2>
                             </div>
@@ -66,6 +68,7 @@ export default function Cardportfolio({ work }) {
                         </Link>
                     </div>
                 </div>
+            </div>
             </div>
             </div>
         </li>

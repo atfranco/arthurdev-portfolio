@@ -20,7 +20,6 @@ export async function getStaticProps() {
 }
 
 export default function Works({ works }) {
-
     return (
         <>
         <div className={styles.telaportfolio}>

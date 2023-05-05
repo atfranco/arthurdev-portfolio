@@ -11,15 +11,25 @@
     border-top: 1px solid var(--tom);
 }
 
+.enquadra {
+    width: 100%;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: var(--borda);
+    overflow: hidden;
+    transition: 0.3s ease-in;
+}
+
+.enquadra:hover {
+    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
 .oddeven {
     margin-bottom: 30px;
     border-radius: 10px;
     border: 1px solid var(--fundo);
-
 }
 
 .oddeven:nth-child(even) {
-    background-color: var(--diminui);
 }
 
 .logothumb {
