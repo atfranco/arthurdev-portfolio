@@ -22,6 +22,12 @@
   --padrao: hsl(var(--hue-color), 50%, 60%);
   --fundo: hsl(var(--hue-color), 50%, 20%);
   --fundomid: hsl(var(--hue-color), 60%, 30%);
+      /* HSLA variaveis padrao */
+  --claratr: hsla(var(--hue-color), 50%, 70%, 0.5);
+  --tomtr: hsla(var(--hue-color), 100%, 50%, 0.5);
+  --padraotr: hsla(var(--hue-color), 50%, 60%, 0.5);
+  --fundotr: hsla(var(--hue-color), 50%, 20%, 0.5);
+  --fundomidtr: hsla(var(--hue-color), 60%, 30%, 0.5);
    /* Sizes */
    --sizeicone: 20px;
 }

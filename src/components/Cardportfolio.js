@@ -3,44 +3,37 @@ import styles from '@/styles/Cardfolio.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import {
-    faLink
-  } from '@fortawesome/free-solid-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import Espacador from './Espacador';
 import FsLightbox from "fslightbox-react";
 
 export default function Cardportfolio({ work }) {
-
     const [toggler, setToggler] = useState(false);
-
-    return (   
+    return (  
+        <>
+        <FsLightbox
+		toggler={toggler}
+        loadOnlyCurrentSource={true}
+        exitFullscreenOnClose={true}
+		sources={[            
+                <Image
+                src={`/imagens/portfolio/${work.imagem}`}
+                width={600}
+                height={400}
+                alt={work.nome}/>
+                ]}
+		/>
         <li className={styles.oddeven}>
-            <div className={styles.enquadra}>
-            <FsLightbox
-			toggler={toggler}
-            loadOnlyCurrentSource={true}
-			sources={
-                    [            
-                    <Image
-                    src={`/imagens/portfolio/${work.imagem}`}
-                    width={600}
-                    height={400}
-                    alt={work.nome}
-                    className={styles.foto}
-                    />  				
-                    ]
-                    }
-			/>
+            <div className={styles.enquadra}>            
             <div>
                 <div className={styles.portfoliocomponente}>
-                    <div className={styles.fora}>              
+                    <div className={styles.photo}>              
                     <Image
                         src={`/imagens/portfolio/${work.imagem}`}
                         fill position={'relative'}
                         object fit={'contain'}
                         alt={work.nome}
                         onClick={() => setToggler(!toggler)}
-                        className={styles.foto}
                     />   
                     </div>
                     <div className={styles.card}>
@@ -68,9 +61,10 @@ export default function Cardportfolio({ work }) {
                         </Link>
                     </div>
                 </div>
-            </div>
+                </div>
             </div>
             </div>
         </li>
+        </> 
 )
 }
