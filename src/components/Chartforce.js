@@ -74,13 +74,19 @@ class Graficoforce extends Component {
                       {
                       name: "LINGUAGENS", value: 40,
                        children: [
-                        { name: "JS", value: 40, children: [
+                        { name: "JS", value: 40,
+                          children: [
                             {name: "Node.js", value: 25},
                             {name: "Jest", value: 25},
                             {name: "Nest/Express", value: 25}
                         ]},
-                        { name: "PHP", value: 40, children: [
-                            {name: "Wordpress", value: 35}
+                        { name: "PHP", value: 30,
+                          children: [
+                            {name: "Wordpress", value: 30, children: [
+                              { name: "Woocommerce", value: 20 },
+                              { name: "Custom Fields", value: 20 },
+                              { name: "ACF / CROCOBLOCK", value: 20 },
+                            ]},                            
                         ] },
                       ]
                     }
@@ -100,15 +106,16 @@ class Graficoforce extends Component {
           ];
         // NODES
         series.nodes.template.label.text = "[bold]{name}[/]";
+        series.nodes.template.fontFamily = "Open Sans";
         series.nodes.template.outerCircle.filters.push(new am4core.DropShadowFilter());
         series.nodes.template.togglable = true;
         series.nodes.template.tooltipText = "{name}";
         //series.nodes.template.events.on("hit", function(event) {chart.zoomToDataItem(event.target.dataItem, 1.2, true)});
-        series.maxLevels = 5;
+        series.maxLevels = 2;
         series.fontSize = 16;
         series.minRadius = 0;
         series.maxRadius = 100;
-        series.links.template.distance = 1.3;
+        series.links.template.distance = 1.2;
         series.links.template.tooltipText = "{name}: [bold]{value}[/]";
         series.links.template.interactionsEnabled = true;
         series.links.template.strokeWidth = 5;
