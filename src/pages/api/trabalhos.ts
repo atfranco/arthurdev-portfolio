@@ -44,7 +44,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
         "id":"05",
         "nome":"PlanoACCD",
         "descricao":"Identidade Visual elaborada para marcar uma nova fase do escritório focado na era digital.",
-        "tipo":"Institucional",
+        "tipo":"Identidade Visual",
         "endereco":"https://planoaccd.com.br",
         "imagem":"planoa03.png",
         "logo": "logo-planoaccd.png",
@@ -97,7 +97,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
     {
         "id":"11",
         "nome":"Alphaboulder",
-        "descricao":"Ecommerce criado para venda dos produtos da marca, um dos primeiros que eu fiz",
+        "descricao":"Ecommerce criado para venda dos produtos da marca",
         "tipo":"Ecommerce",
         "endereco":"https://www.alphaboulder.com.br",
         "imagem":"screen-alphaboulder.jpg",

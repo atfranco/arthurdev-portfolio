@@ -7,15 +7,11 @@ Chart.register(PointElement);
 Chart.register(LineController);
 Chart.register(LineElement);
 Chart.register(Filler);
-Chart.defaults.borderColor = '#ffffff20';
+Chart.defaults.borderColor = 'rgba(152, 255, 0, 0.5)';
 Chart.defaults.color = 'rgba(152, 255, 0, 0.92)';
 Chart.defaults.fontSize = '60px';
 
-
-
-
 const data = {
-
     labels: [
       'UI/UX',
       'FRONTEND',
@@ -28,27 +24,24 @@ const data = {
       label: 'Especialidades',
       data: [5, 5, 5, 4, 3, 4],
       fill: true, 
-      backgroundColor: 'rgba(255, 99, 132, 0.2)',
+      backgroundColor: 'rgba(152, 255, 0, 0.2)',
       borderColor: 'rgba(152, 255, 0, 0.92)',
-      pointBackgroundColor: 'rgba(186, 137, 200, 0.92)',
-      pointBorderColor: '#fff',
-      pointHoverBackgroundColor: '#000',
+      pointBackgroundColor: 'rgba(152, 255, 0, 0.92)',
+      pointBorderColor: 'rgba(152, 255, 0, 0.92)',
       pointHoverBorderColor: 'rgba(152, 255, 0, 0.92)',    
     }]    
 };
 
-  export default function Graficoradar() {
-    return (
-      <>
-      <div className='flex centraliza'>
+export default function Graficoradar() {
+  return (
+    <>
+    <div className='flex centraliza'>
       <Radar
-        data={data}
-        width={300}
-        height={300}
-        options={{
-          maintainAspectRatio: false
-        }}
+      data={data}
+      width={300}
+      height={300}
+      options={{maintainAspectRatio: false}}
       />
     </div>
-      </>
+    </>
   )};

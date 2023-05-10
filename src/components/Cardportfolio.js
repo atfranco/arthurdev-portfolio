@@ -21,33 +21,29 @@ export default function Cardportfolio({ work }) {
                 width={600}
                 height={400}
                 alt={work.nome}/>
-                ]}
-		/>
+                ]}/>
         <li className={styles.oddeven}>
-            <div className={styles.enquadra}>            
-            <div>
-                <div className={styles.portfoliocomponente}>
-                    <div className={styles.photo}>              
-                    <Image
-                        src={`/imagens/portfolio/${work.imagem}`}
-                        fill position={'relative'}
-                        object fit={'contain'}
-                        alt={work.nome}
-                        onClick={() => setToggler(!toggler)}
-                    />   
-                    </div>
-                    <div className={styles.card}>
-                        <div className={styles.divideesq}>
-                            <div className={styles.logoetitulo}>                   
-                                <Image
-                                    src={`/imagens/portfolio/logos/${work.logo}`}
-                                    width={60}
-                                    height={30}
-                                    alt={work.nome}
-                                    className={styles.logothumb}
-                                />
-                                <h2>{work.nome}</h2>
-                            </div>
+            <div className={styles.enquadra}>
+                <div className={styles.photo}>              
+                <Image
+                src={`/imagens/portfolio/${work.imagem}`}
+                fill position={'relative'}
+                object fit={'contain'}
+                alt={work.nome}
+                onClick={() => setToggler(!toggler)}
+                />   
+                </div>
+                <div className={styles.card}>
+                    <div className={styles.divideesq}>
+                        <div className={styles.logoetitulo}>                   
+                            <Image
+                            src={`/imagens/portfolio/logos/${work.logo}`}
+                            width={60}
+                            height={30}
+                            alt={work.nome}
+                            className={styles.logothumb}/>
+                            <h2>{work.nome}</h2>
+                        </div>
                         <Espacador />
                         <h3>{work.descricao}</h3>
                     </div>
@@ -60,9 +56,8 @@ export default function Cardportfolio({ work }) {
                         <FontAwesomeIcon className={styles.icone} icon={faLink}/>
                         </Link>
                     </div>
+
                 </div>
-                </div>
-            </div>
             </div>
         </li>
         </> 

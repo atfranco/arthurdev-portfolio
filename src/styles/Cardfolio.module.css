@@ -12,7 +12,7 @@
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(15px);
     transition: 0.3s ease-in;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     border: 1px solid var(--fundo);
     margin-bottom: 50px;
@@ -21,10 +21,6 @@
 .enquadra:hover {
     box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.5);
 }
-
-.oddeven {}
-
-.oddeven:nth-child(even) {}
 
 .logothumb {
     border-radius: 5px;
@@ -89,14 +85,5 @@
     position: relative;
     transition: 0.3s ease-in-out;
     z-index: 2;
-    border: 1px solid var(--tomtr);
     border-bottom: 1px solid var(--tom);
-}
-
-.photo:hover {
-    border: 1px solid var(--tom);
-}
-
-.lightbox {
-    position: absolute;
 }

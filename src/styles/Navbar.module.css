@@ -13,7 +13,7 @@
 }
   
 .navbar {
-    background-color: var(--tom);
+    background: linear-gradient(90deg, var(--tom) 0%, var(--tomtr) 100%);
     width: 80px;
     display: flex;
     flex-direction: column;
@@ -32,11 +32,11 @@
 }
   
 .navbar:hover {
-    background: rgba( 255, 255, 255, 0.05 );
-    backdrop-filter: blur( 4px );
-    color: var(--tom);
-    width: 100px;
-    box-shadow: var(--fundo) 0px 0px 0px 0px, var(--tom) 0px 0px 0px 4px;
+  background: linear-gradient(90deg, var(--tom) -50%, var(--tomtr) 100%);
+  backdrop-filter: blur(4px);
+  color: var(--tom);
+  width: 100px;
+  box-shadow: var(--fundo) 0px 0px 0px 0px, var(--tom) 0px 0px 0px 4px;
 }  
   .icones {
     width: var(--sizeicone);
