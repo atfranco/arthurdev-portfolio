@@ -32,14 +32,13 @@ class Graficoforce extends Component {
                     {
                       name: "JS", value:50, children: [
                         { name: "REACT", value: 50, children: [
-                          { name: "Styled Components", value: 25 },
-                          { name: "Material UI", value: 25 },
-                          { name: "Hooks", value: 25 },
-                          { name: "Next.js", value: 25 }
+                          { name: "MUI / Styled Components", value: 25 },
+                          { name: "Headless WP", value: 25 },
+                          { name: "Next.js => SSR / CSR", value: 25 }
                           ]
                     },
                         { name: "TYPESCRIPT", value: 35 },
-                        { name: "THREE.JS", value: 25 }
+                        { name: "THREE.JS", value: 20 }
                       ]
                     },
                     { name: "HTML5", value: 50 },
@@ -51,7 +50,7 @@ class Graficoforce extends Component {
                   children: [  
                       { name: "SEO", value: 25},
                       { name: "Google Analytics", value: 25},
-                      { name: "Instagram ADS", value: 25},
+                      { name: "Instagram Shop / Ads", value: 25},
                   ]
                 },
                 {
@@ -60,7 +59,7 @@ class Graficoforce extends Component {
                   children: [
                     {
                       name: "API'S", value: 40, children: [
-                        { name: "REST/API", value: 25 },
+                        { name: "REST", value: 25 },
                         { name: "Microserviços", value: 25 },
                         { name: "Integração de Dados", value: 25 }
                       ]
@@ -77,14 +76,14 @@ class Graficoforce extends Component {
                         { name: "JS", value: 40,
                           children: [
                             {name: "Node.js", value: 25},
-                            {name: "Jest", value: 25},
-                            {name: "Nest/Express", value: 25}
+                            {name: "Tests em Jest", value: 25},
+                            {name: "Express/Nest", value: 25}
                         ]},
                         { name: "PHP", value: 30,
                           children: [
                             {name: "Wordpress", value: 30, children: [
                               { name: "Woocommerce", value: 20 },
-                              { name: "Custom Fields", value: 20 },
+                              { name: "Hooks", value: 20 },
                               { name: "ACF / CROCOBLOCK", value: 20 },
                             ]},                            
                         ] },
@@ -96,9 +95,9 @@ class Graficoforce extends Component {
                     name: "DESIGN",
                     value: 60,
                     children: [  
-                        { name: "Criação de Logotipos", value: 40},
+                        { name: "Criação de Logotipos", value: 25},
                         { name: "UI/UX", value: 40},
-                        { name: "Prototipagem / Figma", value: 40},
+                        { name: "Prototipagem / Figma", value: 35},
                     ]
                   },         
               ]
