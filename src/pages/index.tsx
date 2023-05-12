@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import AnimatedText from '../../node_modules/react-animated-text-content';
 import Botaoglow from '@/components/Botaoglow'
 import Espacador from '@/components/Espacador';
